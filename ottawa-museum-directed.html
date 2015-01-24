@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>twarc Directed Graph of Retweets</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <style type="text/css">
+
+div#sidebar {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width: 250px;
+	height:400px;
+	overflow:scroll;
+
+	border: 1px solid black;
+	background: #eee;
+	padding: 5px;
+	}
+
+div#sidebar_lists {
+	font-size: 75%;
+}
+
+div.sidebar_list {
+	width: 50%;
+	float:left;
+}
+
+div#argsopts {
+	float: right;
+}
+div.metadata {
+	font-size: 75%;
+}
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+marker#plain {
+  fill: #666;
+}
+
+marker#in {
+  fill: #44f;
+}
+
+marker#out {
+  fill: #0f0;
+}
+
+path.link.hlOut {
+	stroke: #0f0;
+	stroke-width: 2px;
+}
+path.link.hlIn {
+	stroke: #44f;
+	stroke-width: 2px;
+}
+
+
+circle {
+  fill: #eee;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+circle.hl {
+	stroke: #f00;
+	fill: #f00;
+}
+circle.hlIn {
+	stroke: #0f0;
+	fill: #cfc;
+}
+circle.hlOut {
+	stroke: #66f;
+	fill: #ccf;
+}
+circle.hlout.hlIn {
+	stroke: #66f;
+	fill: #cfc;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+text.shad {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
+g.hl text.shad {
+	stroke: #fcc;
+  	stroke-opacity: 1;
+}
+g.hlIn text.shad {
+	stroke: #cfc;
+  	stroke-opacity: 1;
+}
+g.hlOut text.shad {
+	stroke: #ddf;
+  	stroke-opacity: 1;
+}
+
+
+ul { margin: 0; padding: 0; list-style-type: none;}
+    </style>
+  </head>
+  <body>
+  
+    <div id="sidebar">
+    	<div id="sidebar_selectdiv">
+    	</div>
+    	<h2 id="sidebar_user"></h2>
+    	<div id="sidebar_lists">
+	    	<div class="sidebar_list" id="sidebar_inlist"></div>
+    		<div class="sidebar_list" id="sidebar_outlist"></div>
+    	</div
+    </div>
+    
+    
+
+  
+    <script type="text/javascript">
+	var json = {"nodes": [{"name": "amodeo51", "title": "amodeo51 (0/3)"}, {"name": "DougQuantz", "title": "DougQuantz (0/3)"}, {"name": "Klayoven", "title": "Klayoven (0/1)"}, {"name": "ThingsAreOdd", "title": "ThingsAreOdd (1/2)"}, {"name": "erikaheesen", "title": "erikaheesen (2/1)"}, {"name": "frankredbird", "title": "frankredbird (0/1)"}, {"name": "ClassCollect", "title": "ClassCollect (0/1)"}, {"name": "CanadasHistory", "title": "CanadasHistory (2/0)"}, {"name": "jkahane1", "title": "jkahane1 (0/2)"}, {"name": "14billygoats", "title": "14billygoats (0/2)"}, {"name": "MMGLK", "title": "MMGLK (11/1)"}, {"name": "steve_NASH77", "title": "steve_NASH77 (1/0)"}, {"name": "Scruffy19", "title": "Scruffy19 (0/2)"}, {"name": "MVTextileMuseum", "title": "MVTextileMuseum (1/0)"}, {"name": "jiwontina", "title": "jiwontina (0/1)"}, {"name": "gillianjessie", "title": "gillianjessie (0/5)"}, {"name": "museumspec", "title": "museumspec (0/2)"}, {"name": "JimNeill3", "title": "JimNeill3 (5/1)"}, {"name": "softgrasswalker", "title": "softgrasswalker (0/1)"}, {"name": "MysteriesCanada", "title": "MysteriesCanada (0/1)"}, {"name": "gordbrown", "title": "gordbrown (1/0)"}, {"name": "WellsGarbeProd", "title": "WellsGarbeProd (6/0)"}, {"name": "PMStroud", "title": "PMStroud (3/3)"}, {"name": "HenryGlazebrook", "title": "HenryGlazebrook (0/1)"}, {"name": "SciTechMuseum", "title": "SciTechMuseum (0/1)"}, {"name": "HeritageCanada", "title": "HeritageCanada (9/0)"}, {"name": "CherylWellsWAHM", "title": "CherylWellsWAHM (0/1)"}, {"name": "BytownMuseum", "title": "BytownMuseum (2/3)"}, {"name": "ExpoDalton", "title": "ExpoDalton (0/1)"}, {"name": "NGoidie", "title": "NGoidie (0/1)"}, {"name": "SarahWardAU", "title": "SarahWardAU (0/1)"}, {"name": "Laelaps", "title": "Laelaps (2/0)"}, {"name": "rcnnewsmag", "title": "rcnnewsmag (1/0)"}, {"name": "yorkregencysoci", "title": "yorkregencysoci (0/2)"}, {"name": "AllanGood1", "title": "AllanGood1 (0/2)"}, {"name": "JanetHH", "title": "JanetHH (0/1)"}, {"name": "bcgoldrushpress", "title": "bcgoldrushpress (1/0)"}, {"name": "dieselduckster", "title": "dieselduckster (0/2)"}, {"name": "SteveDaly15", "title": "SteveDaly15 (0/1)"}, {"name": "earlscourt215", "title": "earlscourt215 (0/2)"}, {"name": "kd_mercer", "title": "kd_mercer (0/1)"}, {"name": "ischool_TO", "title": "ischool_TO (1/0)"}, {"name": "MyPetGloat", "title": "MyPetGloat (2/0)"}, {"name": "stoneparkschool", "title": "stoneparkschool (2/2)"}, {"name": "YGKReTweeter", "title": "YGKReTweeter (0/2)"}, {"name": "ghostcatbce", "title": "ghostcatbce (0/3)"}, {"name": "wanderu", "title": "wanderu (0/1)"}, {"name": "Spiritwood", "title": "Spiritwood (0/3)"}, {"name": "builtHFX", "title": "builtHFX (0/1)"}, {"name": "ferguss0", "title": "ferguss0 (0/2)"}, {"name": "OttawaMorning", "title": "OttawaMorning (1/0)"}, {"name": "MisshapenPearl", "title": "MisshapenPearl (3/0)"}, {"name": "musingsmmst", "title": "musingsmmst (2/0)"}, {"name": "RLitwiller", "title": "RLitwiller (0/1)"}, {"name": "bmaggiemay", "title": "bmaggiemay (3/0)"}, {"name": "MuseumofNature", "title": "MuseumofNature (1/0)"}, {"name": "ClosetHarper", "title": "ClosetHarper (0/1)"}, {"name": "siouxpp", "title": "siouxpp (0/1)"}, {"name": "kallimgmt", "title": "kallimgmt (0/1)"}, {"name": "digitaldannyboy", "title": "digitaldannyboy (0/1)"}, {"name": "CanMusHistory", "title": "CanMusHistory (1/2)"}, {"name": "RSMacPherson", "title": "RSMacPherson (0/1)"}, {"name": "laura_hman", "title": "laura_hman (0/2)"}, {"name": "OriginalShipstr", "title": "OriginalShipstr (0/1)"}, {"name": "renukamendiss", "title": "renukamendiss (0/1)"}, {"name": "NuSigmaPi", "title": "NuSigmaPi (1/0)"}, {"name": "shopaganza", "title": "shopaganza (0/1)"}, {"name": "67Capt_Canuck", "title": "67Capt_Canuck (0/1)"}, {"name": "CanWarMuseum", "title": "CanWarMuseum (1/2)"}, {"name": "david_sterns", "title": "david_sterns (0/2)"}, {"name": "DWHauthor", "title": "DWHauthor (3/0)"}, {"name": "PeopleOfCanada", "title": "PeopleOfCanada (0/1)"}, {"name": "earlg22", "title": "earlg22 (0/1)"}, {"name": "nojgr", "title": "nojgr (2/4)"}, {"name": "sandymcclearn", "title": "sandymcclearn (0/1)"}, {"name": "museumsontario", "title": "museumsontario (0/2)"}, {"name": "HeatherMallick", "title": "HeatherMallick (0/1)"}, {"name": "olderladybug", "title": "olderladybug (0/1)"}, {"name": "AnneLougheed", "title": "AnneLougheed (0/1)"}, {"name": "Ottawa_Tourism", "title": "Ottawa_Tourism (5/5)"}, {"name": "HeartHomeHandmd", "title": "HeartHomeHandmd (0/1)"}, {"name": "AnnaAnthro", "title": "AnnaAnthro (0/1)"}, {"name": "PWApn", "title": "PWApn (1/1)"}, {"name": "Chrystal_Wilson", "title": "Chrystal_Wilson (2/0)"}, {"name": "pmharper", "title": "pmharper (4/0)"}, {"name": "Targettours", "title": "Targettours (1/1)"}, {"name": "NoMoreCPC", "title": "NoMoreCPC (0/1)"}, {"name": "TimHortons", "title": "TimHortons (3/0)"}, {"name": "JayneLoganMxxx", "title": "JayneLoganMxxx (0/2)"}, {"name": "SirJohnA2015", "title": "SirJohnA2015 (0/2)"}, {"name": "spiderzjay", "title": "spiderzjay (0/1)"}, {"name": "costisd", "title": "costisd (0/3)"}, {"name": "Ottawa_Now", "title": "Ottawa_Now (0/1)"}, {"name": "LostOttawa", "title": "LostOttawa (2/0)"}, {"name": "UofT", "title": "UofT (5/0)"}, {"name": "GlanmoreNHS", "title": "GlanmoreNHS (0/1)"}, {"name": "Puycelsi", "title": "Puycelsi (3/1)"}, {"name": "CultLaw", "title": "CultLaw (1/0)"}, {"name": "Dale_Jackaman", "title": "Dale_Jackaman (11/0)"}, {"name": "cable14", "title": "cable14 (1/2)"}, {"name": "historycanada", "title": "historycanada (2/0)"}, {"name": "VisitKingston1", "title": "VisitKingston1 (0/4)"}, {"name": "jimbobbysez", "title": "jimbobbysez (2/0)"}, {"name": "joetea48", "title": "joetea48 (0/1)"}, {"name": "farmboy1111", "title": "farmboy1111 (0/1)"}, {"name": "yummycookies", "title": "yummycookies (0/2)"}, {"name": "globeandmail", "title": "globeandmail (22/0)"}, {"name": "catherineknows", "title": "catherineknows (1/0)"}, {"name": "GaryHousch", "title": "GaryHousch (0/1)"}, {"name": "CSNREC", "title": "CSNREC (0/1)"}, {"name": "thatkatetaylor", "title": "thatkatetaylor (1/0)"}, {"name": "HfxShippingNews", "title": "HfxShippingNews (0/1)"}, {"name": "MartynPrice3", "title": "MartynPrice3 (0/2)"}, {"name": "GwenTuinman", "title": "GwenTuinman (0/1)"}, {"name": "LebrunSimon", "title": "LebrunSimon (1/1)"}, {"name": "The_Miss_Greer", "title": "The_Miss_Greer (0/1)"}, {"name": "JPBorisko", "title": "JPBorisko (0/1)"}, {"name": "___Danno", "title": "___Danno (0/1)"}, {"name": "partyspice", "title": "partyspice (0/1)"}], "args": ["ottawamuseum.json"], "opts": {"threshold": 1, "output": "embed", "mode": "mentions", "template": "directed.html"}, "links": [{"source": 94, "target": 0, "value": 1}, {"source": 79, "target": 0, "value": 1}, {"source": 52, "target": 0, "value": 1}, {"source": 106, "target": 1, "value": 1}, {"source": 20, "target": 1, "value": 1}, {"source": 17, "target": 1, "value": 1}, {"source": 98, "target": 2, "value": 1}, {"source": 51, "target": 3, "value": 1}, {"source": 27, "target": 3, "value": 1}, {"source": 106, "target": 4, "value": 1}, {"source": 106, "target": 5, "value": 1}, {"source": 55, "target": 6, "value": 1}, {"source": 31, "target": 8, "value": 2}, {"source": 96, "target": 9, "value": 1}, {"source": 84, "target": 9, "value": 1}, {"source": 106, "target": 10, "value": 1}, {"source": 10, "target": 33, "value": 1}, {"source": 106, "target": 33, "value": 1}, {"source": 100, "target": 14, "value": 1}, {"source": 106, "target": 15, "value": 1}, {"source": 10, "target": 15, "value": 2}, {"source": 22, "target": 15, "value": 1}, {"source": 73, "target": 15, "value": 1}, {"source": 10, "target": 16, "value": 1}, {"source": 106, "target": 16, "value": 1}, {"source": 106, "target": 17, "value": 1}, {"source": 70, "target": 18, "value": 1}, {"source": 36, "target": 19, "value": 1}, {"source": 10, "target": 22, "value": 1}, {"source": 22, "target": 22, "value": 1}, {"source": 73, "target": 22, "value": 1}, {"source": 11, "target": 23, "value": 1}, {"source": 93, "target": 24, "value": 1}, {"source": 21, "target": 26, "value": 1}, {"source": 51, "target": 27, "value": 1}, {"source": 27, "target": 27, "value": 1}, {"source": 3, "target": 27, "value": 1}, {"source": 25, "target": 28, "value": 1}, {"source": 98, "target": 29, "value": 1}, {"source": 97, "target": 30, "value": 1}, {"source": 106, "target": 12, "value": 1}, {"source": 17, "target": 12, "value": 1}, {"source": 106, "target": 34, "value": 1}, {"source": 17, "target": 34, "value": 1}, {"source": 7, "target": 35, "value": 1}, {"source": 114, "target": 37, "value": 1}, {"source": 106, "target": 37, "value": 1}, {"source": 32, "target": 38, "value": 1}, {"source": 99, "target": 39, "value": 1}, {"source": 87, "target": 39, "value": 1}, {"source": 25, "target": 40, "value": 1}, {"source": 43, "target": 43, "value": 1}, {"source": 85, "target": 43, "value": 1}, {"source": 10, "target": 44, "value": 1}, {"source": 106, "target": 44, "value": 1}, {"source": 106, "target": 45, "value": 1}, {"source": 42, "target": 45, "value": 1}, {"source": 17, "target": 45, "value": 1}, {"source": 10, "target": 75, "value": 1}, {"source": 106, "target": 75, "value": 1}, {"source": 79, "target": 47, "value": 1}, {"source": 50, "target": 47, "value": 1}, {"source": 13, "target": 47, "value": 1}, {"source": 25, "target": 48, "value": 1}, {"source": 106, "target": 49, "value": 1}, {"source": 17, "target": 49, "value": 1}, {"source": 25, "target": 53, "value": 1}, {"source": 98, "target": 56, "value": 1}, {"source": 98, "target": 57, "value": 1}, {"source": 98, "target": 58, "value": 1}, {"source": 98, "target": 59, "value": 1}, {"source": 94, "target": 60, "value": 1}, {"source": 79, "target": 60, "value": 1}, {"source": 100, "target": 61, "value": 1}, {"source": 4, "target": 62, "value": 1}, {"source": 106, "target": 62, "value": 1}, {"source": 25, "target": 63, "value": 1}, {"source": 110, "target": 64, "value": 1}, {"source": 70, "target": 109, "value": 1}, {"source": 98, "target": 67, "value": 1}, {"source": 94, "target": 68, "value": 1}, {"source": 79, "target": 68, "value": 1}, {"source": 4, "target": 69, "value": 1}, {"source": 106, "target": 69, "value": 1}, {"source": 93, "target": 71, "value": 1}, {"source": 21, "target": 72, "value": 1}, {"source": 10, "target": 73, "value": 2}, {"source": 22, "target": 73, "value": 1}, {"source": 106, "target": 73, "value": 1}, {"source": 25, "target": 74, "value": 1}, {"source": 25, "target": 46, "value": 1}, {"source": 98, "target": 76, "value": 1}, {"source": 83, "target": 78, "value": 1}, {"source": 51, "target": 79, "value": 1}, {"source": 68, "target": 79, "value": 1}, {"source": 94, "target": 79, "value": 1}, {"source": 60, "target": 79, "value": 1}, {"source": 52, "target": 79, "value": 1}, {"source": 21, "target": 80, "value": 1}, {"source": 70, "target": 81, "value": 1}, {"source": 82, "target": 82, "value": 1}, {"source": 43, "target": 85, "value": 1}, {"source": 98, "target": 86, "value": 1}, {"source": 42, "target": 88, "value": 1}, {"source": 102, "target": 88, "value": 1}, {"source": 96, "target": 89, "value": 1}, {"source": 84, "target": 89, "value": 1}, {"source": 54, "target": 90, "value": 1}, {"source": 41, "target": 91, "value": 1}, {"source": 94, "target": 91, "value": 1}, {"source": 79, "target": 91, "value": 1}, {"source": 65, "target": 92, "value": 1}, {"source": 54, "target": 77, "value": 1}, {"source": 25, "target": 95, "value": 1}, {"source": 84, "target": 96, "value": 1}, {"source": 87, "target": 99, "value": 2}, {"source": 10, "target": 101, "value": 1}, {"source": 96, "target": 101, "value": 1}, {"source": 84, "target": 101, "value": 1}, {"source": 106, "target": 101, "value": 1}, {"source": 7, "target": 103, "value": 1}, {"source": 54, "target": 104, "value": 1}, {"source": 107, "target": 105, "value": 1}, {"source": 21, "target": 105, "value": 1}, {"source": 98, "target": 108, "value": 1}, {"source": 21, "target": 66, "value": 1}, {"source": 25, "target": 111, "value": 1}, {"source": 10, "target": 112, "value": 1}, {"source": 106, "target": 112, "value": 1}, {"source": 106, "target": 113, "value": 1}, {"source": 106, "target": 114, "value": 1}, {"source": 102, "target": 115, "value": 1}, {"source": 83, "target": 116, "value": 1}, {"source": 98, "target": 117, "value": 1}, {"source": 21, "target": 118, "value": 1}]};
+	
+	var mode = json["opts"]["mode"];
+	var threshold = json["opts"]["threshold"];
+	var links = json["links"];
+	var nodes = json["nodes"];
+	
+	function twitterlink(n) {
+		return "<a href='https://twitter.com/" + n + "'>" + n + "</n>";
+	}
+	
+	function selectlink(n) {
+		return "<a href='javascript:userselect(\"" + n + "\")'>" + n + "</n>";
+	}
+	
+	function listsort(l) {
+		sortl = [];
+		for (var a = 0; a < l.length; a++) {
+			sortl.push(l[a].toLowerCase() + " " + l[a]);
+		}
+		sortl = sortl.sort();
+		for (var a = 0; a < sortl.length; a++) {
+			sortl[a] = sortl[a].split(" ")[1];
+		}
+		return sortl;
+	}
+	
+	function listhtml(l) {
+		l = listsort(l);
+		var html = "<ul>";
+		for (var a = 0; a < l.length; a++) {
+			html += "<li>" + selectlink(l[a]) + "</li>";
+		}
+		html += "</ul>";
+		return html;
+	}
+	
+	function selecthtml(l) {
+		l = listsort(l);
+		// show threshold
+		html = "<div id='filename' class='metadata'>" + json["args"][0] + "</div>"
+		html += "<div id='argsopts' class='metadata'>Threshold: " + threshold + "<br/>Mode: " + mode + "</div>";
+		html += "<select onchange='userselect(this.value)'>";
+		for (var a = 0; a < l.length; a++) {
+			html += "<option>" + l[a] + "</option>";
+		}
+		html += "</select>";
+		return html;
+	}
+	
+	function userselect(name) {
+	   	// working with:
+   	//	this:
+   	//	<circle class="" transform="translate(974.0229211897631,951.403518091633)" id="circle_RobertCBinkley" r="6">
+    //     <title>RobertCBinkley (1/1)</title>
+    //  </circle>
+    //  d:
+    //  {"name": "RobertCBinkley", "title": "RobertCBinkley (1/1)"}
+    //  path:
+    //        <path d="M952.2..." marker-end="url(#plain)" in="pabinkley" out="RobertCBinkley" 
+    //			class="link suit out_RobertCBinkley in_pabinkley hlOut"/>
+         
+   		root = d3.select("#circle_" + name);
+   		// show selected user in sidebar
+   		d3.select("#sidebar_user").html(twitterlink(name));
+
+   		
+   		pathsfg = d3.select("#paths-fg");
+   		circlesfg = d3.select("#circles-fg");
+   		textsfg = d3.select("#texts-fg");
+   		paths = d3.select("#paths");
+   		circles = d3.select("#circles");
+   		texts = d3.select("#texts");
+   		
+   		// clear previous selections
+   		d3.selectAll(".hl").classed("hl", false);
+   		d3.selectAll(".hlIn").classed("hlIn", false);
+   		d3.selectAll(".hlOut").classed("hlOut", false);
+   		// put foregrounded paths etc. (if any) back in background
+   		var p = pathsfg.selectAll("path").attr("marker-end", "url(#plain)");
+   		if (p.size() > 0)
+   			d3.select("#paths").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+   		var p = circlesfg.selectAll("circle");
+   		if (p.size() > 0)
+   			d3.select("#circles").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+   		var p = textsfg.selectAll("g");
+   		if (p.size() > 0)
+   			d3.select("#texts").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+   		
+		// highlight current node, paths, branch nodes
+   		root.classed("hl", true);
+   		d3.select("#text_" + name).classed("hl", true);
+   		// highlight paths
+   		var inlist = [];
+   		var outlist = [];
+   		d3.selectAll("path.out_" + name).classed("hlOut", true).attr("marker-end", "url(#out)").each(function(d){
+   			if (d.target.name != name) {
+   				outlist.push(d.target.name);
+   				d3.select("#circle_" + d.target.name).classed("hlIn", true); 
+   				d3.select("#text_" + d.target.name).classed("hlIn", true);
+   			};
+   		});
+   		d3.selectAll("path.in_" + name).classed("hlIn", true).attr("marker-end", "url(#in)").each(function(d){
+   			if (d.source.name != name) {
+   				inlist.push(d.source.name);
+   				d3.select("#circle_" + d.source.name).classed("hlOut", true); 
+   				d3.select("#text_" + d.source.name).classed("hlOut", true)
+   				this["marker-end"] = "url(#out)";
+   			};
+   		});
+		var inlabel = {"retweets": "Retweeted by", "replies": "Replies to this", "mentions": "Mentioned"};
+		var outlabel = {"retweets": "Retweeted", "replies": "Replies from this", "mentions": "Mentioned by"};
+		d3.select("#sidebar_inlist").html("<h3>" + inlabel[mode] + "</h3>" + listhtml(inlist));
+		d3.select("#sidebar_outlist").html("<h3>" + outlabel[mode] + "</h3>" + listhtml(outlist));
+
+		// move path to a different group: based on https://groups.google.com/forum/#!topic/d3-js/KEiqiUPZHUs
+   		var p = paths.selectAll("path.out_" + name +", path.in_" + name);
+   		if (p.size() > 0)
+   			d3.select("#paths-fg").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+   		var p = circles.selectAll(".hl, .hlIn, .hlOut");
+   		if (p.size() > 0)
+   			d3.select("#circles-fg").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+   		var p = texts.selectAll(".hl, .hlIn, .hlOut");
+   		if (p.size() > 0)
+   			d3.select("#texts-fg").each(function() {
+	   			f = this;
+	   			p.each(function() { 
+	   				f.appendChild(this) 
+	   			});
+    		})
+
+
+	}
+	
+
+// set box size to window size
+var win = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    w = win.innerWidth || e.clientWidth || g.clientWidth,
+    h = win.innerHeight|| e.clientHeight|| g.clientHeight;
+
+// set sidebar to height of window
+d3.select("#sidebar").style.height = h + 'px'; 
+
+var users = [];
+for (var a = 0; a < nodes.length; a++) {
+	users.push(nodes[a]["name"]);
+}
+
+d3.select("#sidebar_selectdiv").html(selecthtml(users));
+    
+// no, on second thought, make the window really really big
+w = 2000;
+h = 2000;
+
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([w, h])
+    .linkDistance(60)
+    .charge(-300)
+    .on("tick", tick)
+    .start();
+
+var svg = d3.select("body").append("svg:svg")
+    .attr("width", w)
+    .attr("height", h);
+
+// Per-type markers, as they don't inherit styles.
+svg.append("svg:defs").selectAll("marker")
+    .data(["plain", "in", "out"])
+  .enter().append("svg:marker")
+    .attr("id", String)
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+  .append("svg:path")
+    .attr("d", "M0,-5L10,0L0,5");
+
+var path = svg.append("svg:g")
+	.attr("id", "paths")
+  .selectAll("path")
+    .data(force.links())
+  .enter().append("svg:path")
+    .attr("class", function(d) { return "link " + d.type + " out_" + d.source.name + " in_" + d.target.name; })
+    .attr("out", function(d) { return d.source.name; })
+    .attr("in", function(d) { return d.target.name; })
+    .attr("marker-end", "url(#plain)");
+
+var circle = svg.append("svg:g")
+	.attr("id", "circles")
+	.selectAll("circle")
+    .data(force.nodes())
+  .enter().append("svg:circle")
+    .attr("r", 6)
+    .attr("id", function(d) {return "circle_" + d.name;})
+   .on("click", function(d) {
+		userselect(d.name);
+   		})
+   .call(force.drag);
+
+// tooltips
+ circle.append("title")
+      .text(function(d) { return d.title; });
+
+var text = svg.append("svg:g")
+	.attr("id", "texts")
+	.selectAll("g")
+    .data(force.nodes())
+  .enter().append("svg:g")
+  .attr("id", function(d) {return "text_" + d.name;});
+
+// A copy of the text with a thick white stroke for legibility.
+text.append("svg:text")
+    .attr("x", 8)
+    .attr("y", ".31em")
+    .attr("class", "shad")
+    
+    .text(function(d) { return d.name; });
+
+text.append("svg:text")
+    .attr("x", 8)
+    .attr("y", ".31em")
+    .text(function(d) { return d.name; });
+
+// foreground groups: we move highlighted objects here, to bring them in front of the rest
+var pathsfg = svg.append("svg:g")
+	.attr("id", "paths-fg");
+var circlesfg = svg.append("svg:g")
+	.attr("id", "circles-fg");
+var textsfg = svg.append("svg:g")
+	.attr("id", "texts-fg");
+
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+  path.attr("d", function(d) {
+    var dx = d.target.x - d.source.x,
+        dy = d.target.y - d.source.y,
+        dr = Math.sqrt(dx * dx + dy * dy);
+    return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+  });
+
+  circle.attr("transform", function(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+  });
+
+  text.attr("transform", function(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+  });
+}
+//	});
+
+    </script>
+    
+  </body>
+</html>
+
