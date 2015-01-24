@@ -62,7 +62,7 @@ fetch the full JSON for each tweet and output each one as line-oriented JSON:
 This is an example of using twarc in search mode: 
 
 1. pip install twarc
-1. set CONSUMER\_KEY, CONSUMER\_SECRET, ACCESS\_TOKEN and ACCESS\_TOKEN\_SECRET in your environment.
+1. set CONSUMER\_KEY, CONSUMER\_SECRET, ACCESS\_TOKEN and ACCESS\_TOKEN\_SECRET in your environment (ie modify the env.sh file and run source env.sh before the next step.
 1. twarc.py --query aaronsw
 1. cat aaronsw*.json
 
