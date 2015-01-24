@@ -1,0 +1,2518 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>twarc wall</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12pt;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+    }
+
+    article.tweet {
+      position: relative;
+      float: left;
+      border: thin #eeeeee solid;
+      margin: 10px;
+      width: 270px;
+      padding: 10px;
+      height: 170px;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    img.avatar {
+        vertical-align: middle;
+        float: left;
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 45px;
+    }
+
+    .tweet footer {
+      position: absolute;
+      bottom: 5px;
+      left: 10px;
+      font-size: smaller;
+    }
+
+    .tweet a {
+      text-decoration: none;
+    }
+
+    footer#page {
+      margin-top: 15px;
+      clear: both;
+      width: 100%;
+      text-align: center;
+      font-size: 20pt;
+      font-weight: heavy;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+  <h1>Title Here</h1>
+  <em>created on the command line with <a href="http://github.com/edsu/twarc">twarc</a></em>
+  </header>
+
+  <div id="tweets">
+
+
+    <article class="tweet">
+      <img class="avatar" src="img/IMG_25791_normal.jpg">
+      <a href="http://twitter.com/kallimgmt" class="name">Kallimgmt</a><br>
+      <span class="username">kallimgmt</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/kallimgmt/status/559127102814187520"><time>Sat Jan 24 23:14:24 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/572995a7ffd3c28038f331b9c45a2fc7_normal.jpeg">
+      <a href="http://twitter.com/siouxpp" class="name">janice fedyk</a><br>
+      <span class="username">siouxpp</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/siouxpp/status/559127035290058752"><time>Sat Jan 24 23:14:07 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/7bf3f0687a082860c14a6d60c9d51993_normal.jpeg">
+      <a href="http://twitter.com/HeatherMallick" class="name">Heather Mallick</a><br>
+      <span class="username">HeatherMallick</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/HeatherMallick/status/559124996048834560"><time>Sat Jan 24 23:06:01 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/EDsZo9py_normal.jpeg">
+      <a href="http://twitter.com/ClosetHarper" class="name">Harper's Closet</a><br>
+      <span class="username">ClosetHarper</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/ClosetHarper/status/559110565512355843"><time>Sat Jan 24 22:08:41 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/4kfb0zF-_normal.jpeg">
+      <a href="http://twitter.com/NGoidie" class="name">Norman Goldie</a><br>
+      <span class="username">NGoidie</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/NGoidie/status/559108218665041920"><time>Sat Jan 24 21:59:21 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/iUq1vywM_normal.jpeg">
+      <a href="http://twitter.com/GaryHousch" class="name">Gary Housch</a><br>
+      <span class="username">GaryHousch</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/GaryHousch/status/559107564399767553"><time>Sat Jan 24 21:56:45 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/GfHrPFq6_normal.jpeg">
+      <a href="http://twitter.com/NoMoreCPC" class="name">Canadian Gal</a><br>
+      <span class="username">NoMoreCPC</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/NoMoreCPC/status/559104468743376896"><time>Sat Jan 24 21:44:27 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/88QmgRJt_normal.jpeg">
+      <a href="http://twitter.com/digitaldannyboy" class="name">Danny Boy</a><br>
+      <span class="username">digitaldannyboy</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/digitaldannyboy/status/559103725504327681"><time>Sat Jan 24 21:41:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/HmuWmPhM_normal.jpeg">
+      <a href="http://twitter.com/Klayoven" class="name">H K S</a><br>
+      <span class="username">Klayoven</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/Klayoven/status/559102745677135873"><time>Sat Jan 24 21:37:36 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/image_normal.jpg">
+      <a href="http://twitter.com/67Capt_Canuck" class="name">Michael Behiels</a><br>
+      <span class="username">67Capt_Canuck</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/67Capt_Canuck/status/559102434296205315"><time>Sat Jan 24 21:36:22 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/3bd50c6b-3bfb-49ea-a497-054d7312d830_normal.png">
+      <a href="http://twitter.com/___Danno" class="name">Danno</a><br>
+      <span class="username">___Danno</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Dale_Jackaman:">@Dale_Jackaman:</a> Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://<a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/___Danno/status/559101758409302016"><time>Sat Jan 24 21:33:41 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/73dd1bd0cc3261258429463571026565_normal.jpeg">
+      <a href="http://twitter.com/Dale_Jackaman" class="name">Dale Jackaman</a><br>
+      <span class="username">Dale_Jackaman</span><br>
+      <br>
+      <span class="text">Diefenbaker had his Diefenbunker, now a museum, and Harper his Harpencloset. Trending?  <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23Canada&src=hash">#Canada</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> <a href="http://diefenbunker.ca/">http://t.co/27EItfmEwt</a></span><br>
+      <footer>
+      11 Retweets<br>
+      <a href="http://twitter.com/Dale_Jackaman/status/559101273585483778"><time>Sat Jan 24 21:31:45 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/LO5ZK21j_normal.jpeg">
+      <a href="http://twitter.com/_Dwalk" class="name">dave</a><br>
+      <span class="username">_Dwalk</span><br>
+      <br>
+      <span class="text">Getting our learn on. <a href="https://twitter.com/search?q=%23Dinos&src=hash">#Dinos</a> <a href="https://twitter.com/search?q=%23NatureMuseum&src=hash">#NatureMuseum</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> <a href="https://twitter.com/search?q=%23:)&src=hash">#:)</a> @ Canadian Museum of Nature - Musée canadien de… <a href="http://instagram.com/p/yQE5LhCQFU/">http://t.co/faBzZNH9TB</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/_Dwalk/status/559095129106317316"><time>Sat Jan 24 21:07:20 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/mHSh8CSX_normal.jpeg">
+      <a href="http://twitter.com/WellsGarbeProd" class="name">WellsGarbe</a><br>
+      <span class="username">WellsGarbeProd</span><br>
+      <br>
+      <span class="text">HOTTEST disco party in <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> Feb 21 at the iconic Museum of Nature <a href="https://twitter.com/search?q=%23hotpotato613&src=hash">#hotpotato613</a> <a href="https://www.facebook.com/events/1520965264835432/">https://t.co/TgzYR1pS2U</a> http://t.co/1OEaA6f3We</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/WellsGarbeProd/status/559047402074550272"><time>Sat Jan 24 17:57:41 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/z31ipyFw_normal.jpeg">
+      <a href="http://twitter.com/TORailwayMuseum" class="name">TorontoRailwayMuseum</a><br>
+      <span class="username">TORailwayMuseum</span><br>
+      <br>
+      <span class="text">In May 2007, VIA invited 150 of them to Ottawa for Mother’s Day and a special war bride exhibition at the Canadian War Museum. 5/5</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/TORailwayMuseum/status/559033026081222657"><time>Sat Jan 24 17:00:34 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/tku8pf12_normal.jpeg">
+      <a href="http://twitter.com/Rose_withthorns" class="name">Susan Rose </a><br>
+      <span class="username">Rose_withthorns</span><br>
+      <br>
+      <span class="text">Off to the Nature Museum today. Going to be a nice day with friends and toddler. <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23borrowingkidsisfineformethanks&src=hash">#borrowingkidsisfineformethanks</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Rose_withthorns/status/559023294494814209"><time>Sat Jan 24 16:21:54 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/zCDjc9mY_normal.jpeg">
+      <a href="http://twitter.com/JanetHH" class="name">JanetHueglinHartwick</a><br>
+      <span class="username">JanetHH</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/CanadasHistory:">@CanadasHistory:</a> Ottawa Citizen: History museum pays $300,000 for world’s oldest hockey stick. <a href="http://ow.ly/HN9v6">http://t.co/nJDNoI8lGn</a> <a href="https://twitter.com/search?q=%23hockey&src=hash">#hockey</a> <a href="https://twitter.com/search?q=%23sportshis…&src=hash">#sportshis…</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/JanetHH/status/559014208839626753"><time>Sat Jan 24 15:45:48 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/eacd722fd70c90316ce1beb0d2da2c88_normal.jpeg">
+      <a href="http://twitter.com/joetea48" class="name">Joe Troxler</a><br>
+      <span class="username">joetea48</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/CanadasHistory:">@CanadasHistory:</a> Ottawa Citizen: History museum pays $300,000 for world’s oldest hockey stick. <a href="http://ow.ly/HN9v6">http://t.co/nJDNoI8lGn</a> <a href="https://twitter.com/search?q=%23hockey&src=hash">#hockey</a> <a href="https://twitter.com/search?q=%23sportshis…&src=hash">#sportshis…</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/joetea48/status/559007992696541185"><time>Sat Jan 24 15:21:05 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/ab8a99b7a629eb4bc9f9afedb19cd088_normal.png">
+      <a href="http://twitter.com/CanadasHistory" class="name">Canada's History</a><br>
+      <span class="username">CanadasHistory</span><br>
+      <br>
+      <span class="text">Ottawa Citizen: History museum pays $300,000 for world’s oldest hockey stick. <a href="http://ow.ly/HN9v6">http://t.co/nJDNoI8lGn</a> <a href="https://twitter.com/search?q=%23hockey&src=hash">#hockey</a> <a href="https://twitter.com/search?q=%23sportshistory&src=hash">#sportshistory</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/CanadasHistory/status/559006572937224192"><time>Sat Jan 24 15:15:27 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/a40gMIsB_normal.jpeg">
+      <a href="http://twitter.com/laurencelava" class="name">Laurence Lavallee</a><br>
+      <span class="username">laurencelava</span><br>
+      <br>
+      <span class="text">Night at the Museum! karlsnorman <a href="https://twitter.com/search?q=%23dinos&src=hash">#dinos</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23nuitnocturne&src=hash">#nuitnocturne</a> <a href="http://instagram.com/p/yOqzUqJT7r/">http://t.co/Q2f9YCgs4m</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/laurencelava/status/558897015397310464"><time>Sat Jan 24 08:00:06 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Cozumel_610_normal.jpg">
+      <a href="http://twitter.com/freshtofearless" class="name">FreshtoFearless</a><br>
+      <span class="username">freshtofearless</span><br>
+      <br>
+      <span class="text">Awesome night at <a href="https://twitter.com/search?q=%23naturenocturne&src=hash">#naturenocturne</a> ! What an amazing and fun event! <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> <a href="http://instagram.com/p/yOeZy0HAuV/">http://t.co/9TPOtNgU4E</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/freshtofearless/status/558869750223474688"><time>Sat Jan 24 06:11:46 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/1XfOdfKF_normal.jpeg">
+      <a href="http://twitter.com/mdror" class="name">Mike Dror</a><br>
+      <span class="username">mdror</span><br>
+      <br>
+      <span class="text">Night at the museum. You jelly? <a href="https://twitter.com/search?q=%23naturenocturne&src=hash">#naturenocturne</a> <a href="https://twitter.com/search?q=%23museumofnature&src=hash">#museumofnature</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23ontario&src=hash">#ontario</a> <a href="https://twitter.com/search?q=%23canada&src=hash">#canada</a> <a href="http://instagram.com/p/yOaBumRCnK/">http://t.co/o4LfDp3Bz6</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/mdror/status/558860128813064192"><time>Sat Jan 24 05:33:32 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/eegRpZk9_normal.jpeg">
+      <a href="http://twitter.com/acootz" class="name">Alysha A.</a><br>
+      <span class="username">acootz</span><br>
+      <br>
+      <span class="text">Classy view 🌃🐙#naturenocturne <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> @ Museum of Natur<a href="http://instagram.com/p/yOVb9oqmy2/">http://t.co/6RZFkc9YIR</a>IR</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/acootz/status/558850344009347072"><time>Sat Jan 24 04:54:39 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/zJ-y8KHC_normal.jpeg">
+      <a href="http://twitter.com/stephmorales_xo" class="name">Stephanie Morales</a><br>
+      <span class="username">stephmorales_xo</span><br>
+      <br>
+      <span class="text">Baby skyla at the children's museum in Ottawa <a href="https://twitter.com/search?q=%23Niece&src=hash">#Niece</a> http://t.co/lI0PrImtrV</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/stephmorales_xo/status/558799464971108354"><time>Sat Jan 24 01:32:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/feather_on_Water-small3inch_normal.jpg">
+      <a href="http://twitter.com/YoursOutdoors" class="name">Yours Outdoors </a><br>
+      <span class="username">YoursOutdoors</span><br>
+      <br>
+      <span class="text">This 34 ft birch bark canoe by Rick Nash is complete and will soon be off to the Canadian Museum of History in Ottawa http://t.co/b32A0N5KKt</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/YoursOutdoors/status/558740487549759489"><time>Fri Jan 23 21:38:07 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/KF_portrait_bamboo_normal.jpg">
+      <a href="http://twitter.com/Spiritwood" class="name">Katharine Fletcher</a><br>
+      <span class="username">Spiritwood</span><br>
+      <br>
+      <span class="text">New hooked rug exhibit in historic Mississippi Valley Textile Museum <a href="http://bit.ly/1L57Sb0">http://t.co/Eqa0ptv87Y</a> <a href="http://twitter.com/MVTextileMuseum.@Ottawa_Tourism">@MVTextileMuseum.@Ottawa_Tourism</a> <a href="http://twitter.com/OttawaMorning">@OttawaMorning</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Spiritwood/status/558732766645592066"><time>Fri Jan 23 21:07:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/johnk_2007_normal.jpg">
+      <a href="http://twitter.com/jkahane1" class="name">John M. Kahane</a><br>
+      <span class="username">jkahane1</span><br>
+      <br>
+      <span class="text">@Laelaps  Yeah, I figured as much. :)  Need to get the folks at the Museum here in Ottawa to get motivated to bring you in for a talk! :)</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/jkahane1/status/558663846521733120"><time>Fri Jan 23 16:33:35 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/johnk_2007_normal.jpg">
+      <a href="http://twitter.com/jkahane1" class="name">John M. Kahane</a><br>
+      <span class="username">jkahane1</span><br>
+      <br>
+      <span class="text">@Laelaps  Me, too.   Any plans to come up to Ottawa ever and the Canadian Museum of Nature (<a href="http://nature.ca/en/home">http://t.co/ty4psNOe8c</a>)?</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/jkahane1/status/558656637045837827"><time>Fri Jan 23 16:04:56 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/image_normal.jpg">
+      <a href="http://twitter.com/earlscourt215" class="name">Earls Court Gallery</a><br>
+      <span class="username">earlscourt215</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/cable14:">@cable14:</a> <a href="http://twitter.com/TimHortons">@TimHortons</a> recently re-opened store <a href="https://twitter.com/search?q=%231&src=hash">#1</a> on Ottawa Street, including a museum dedicated to the chain. Video: http://t.co/rM1zYJ<a href="http://tinyurl.com/pwrjw7o">http://t.co/rM1zYJcfaa</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/earlscourt215/status/558632867967012864"><time>Fri Jan 23 14:30:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/IbQnY4_D_normal.jpeg">
+      <a href="http://twitter.com/MartynPrice3" class="name">Martyn Price</a><br>
+      <span class="username">MartynPrice3</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/MartynPrice3/status/558407284238610432"><time>Thu Jan 22 23:34:05 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/6c0745ce2d283d06f534023c5790ed9a_normal.png">
+      <a href="http://twitter.com/yummycookies" class="name">Yummy Cookies</a><br>
+      <span class="username">yummycookies</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Hot Party on a cold night. Ottawa's HOTTEST night at the museum Feb 21 w/@catherineknows <a href="https://twitter.com/search?q=%23discoparty&src=hash">#discoparty</a> <a href="https://twitter.com/search?q=%23nightmarket&src=hash">#nightmarket</a> <a href="https://twitter.com/search?q=%23otta…&src=hash">#otta…</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/yummycookies/status/558353629812645889"><time>Thu Jan 22 20:00:53 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/72c307047fd51677afeaa0363db837c7_normal.jpeg">
+      <a href="http://twitter.com/softgrasswalker" class="name">V. Jobson</a><br>
+      <span class="username">softgrasswalker</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/DWHauthor:">@DWHauthor:</a> Granatstein: Why is Ottawa sinking the Marine Museum of the Great Lakes at Kingston? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/cyu0lY61gJ</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/softgrasswalker/status/558351163414691840"><time>Thu Jan 22 19:51:05 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/UjScySmL_normal.jpeg">
+      <a href="http://twitter.com/littlemsottawa" class="name">littlemissottawa</a><br>
+      <span class="username">littlemsottawa</span><br>
+      <br>
+      <span class="text">museumofnature free tonight from 5-8pm. <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23myottawa&src=hash">#myottawa</a> @ Canadian Museum of Nature - Musée canadien… <a href="http://instagram.com/p/yKxIHkxP_m/">http://t.co/IzZUfhGGKV</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/littlemsottawa/status/558350473384976384"><time>Thu Jan 22 19:48:21 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/MG_winter_cover_09_normal.jpg">
+      <a href="http://twitter.com/MarketGuideMag" class="name">MarketGuide Magazine</a><br>
+      <span class="username">MarketGuideMag</span><br>
+      <br>
+      <span class="text">MUSEUMS : LaSalle County
+
+OTTAWA HISTORICAL AND SCOUTING HERITAGE MUSEUM, 1100 Canal St., 10 a.m. to 4 p.m.... <a href="http://fb.me/2MepXAVf0">http://t.co/xuCx7I3AzD</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/MarketGuideMag/status/558329644475502593"><time>Thu Jan 22 18:25:35 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/NQjihO00_normal.jpeg">
+      <a href="http://twitter.com/Nicole_Vizcardo" class="name">Nicole Vizcardo</a><br>
+      <span class="username">Nicole_Vizcardo</span><br>
+      <br>
+      <span class="text">The fact I'm not the only one that's excited for tomorrow is a good sign right? <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> <a href="https://twitter.com/search?q=%23ottawa67s&src=hash">#ottawa67s</a> http://t.co/I4ewMo1WwO</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Nicole_Vizcardo/status/558322833206423552"><time>Thu Jan 22 17:58:31 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/b2543a9371888869819d49b7cbe14ded_normal.jpeg">
+      <a href="http://twitter.com/yorkregencysoci" class="name">yorkregencysociety</a><br>
+      <span class="username">yorkregencysoci</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/yorkregencysoci/status/558314950071164928"><time>Thu Jan 22 17:27:11 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/events-logo-ottawa_normal.png">
+      <a href="http://twitter.com/Ottawa_Now" class="name">Ottawa Events</a><br>
+      <span class="username">Ottawa_Now</span><br>
+      <br>
+      <span class="text">Meeting at Canadian Museum of Nature: <a href="http://sch.mp/bJQho">http://t.co/tuUpMtNwqe</a> - RT <a href="http://twitter.com/NuSigmaPi">@NuSigmaPi</a> Tonight is our academic event at the Canadian Museum of Natu...</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Ottawa_Now/status/558313144309645312"><time>Thu Jan 22 17:20:01 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/6iqkH_FQ_normal.jpeg">
+      <a href="http://twitter.com/museumspec" class="name">Museums PEC</a><br>
+      <span class="username">museumspec</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/museumspec/status/558310673017749504"><time>Thu Jan 22 17:10:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/IMG_1806_normal.JPG">
+      <a href="http://twitter.com/laura_hman" class="name">Laura </a><br>
+      <span class="username">laura_hman</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/erikaheesen:">@erikaheesen:</a> Read this &amp; please share. Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> http://t.co/P5Zw<a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/P5ZwujLlYR</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/laura_hman/status/558278862917079040"><time>Thu Jan 22 15:03:47 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/1519b17e3b0f20e00a111b8e69aeb7a8_normal.jpeg">
+      <a href="http://twitter.com/david_sterns" class="name">David Sterns</a><br>
+      <span class="username">david_sterns</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/erikaheesen:">@erikaheesen:</a> Read this &amp; please share. Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> http://t.co/P5Zw<a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/P5ZwujLlYR</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/david_sterns/status/558260000385015808"><time>Thu Jan 22 13:48:50 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/twitter_normal.png">
+      <a href="http://twitter.com/thebeaconnews" class="name">Beacon</a><br>
+      <span class="username">thebeaconnews</span><br>
+      <br>
+      <span class="text">Dr. Harold Brown speaks to students at Liberty Aviation Museum <a href="http://ow.ly/HKSmV">http://t.co/mO6U5xTktg</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/thebeaconnews/status/558254379556683776"><time>Thu Jan 22 13:26:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/pt41h7BH_normal.jpeg">
+      <a href="http://twitter.com/escheinberg" class="name">Ellen Scheinberg</a><br>
+      <span class="username">escheinberg</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/ImhnUWrofp</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/escheinberg/status/558248157646454784"><time>Thu Jan 22 13:01:47 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/NoCMXQOJ_normal.jpeg">
+      <a href="http://twitter.com/PeopleOfCanada" class="name">Canuck | Anne-Marie</a><br>
+      <span class="username">PeopleOfCanada</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/LostOttawa:">@LostOttawa:</a> Wait for it ... wait for it ...  they will hatch if you wait for it, at Ottawa's Science and Tech Museum in the... http://t<a href="http://fb.me/1NHOy1Cwz">http://t.co/NdPCeXe2wB</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/PeopleOfCanada/status/558246060179853312"><time>Thu Jan 22 12:53:27 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/QyHf_urj_normal.jpeg">
+      <a href="http://twitter.com/erikaheesen" class="name">Erika Heesen</a><br>
+      <span class="username">erikaheesen</span><br>
+      <br>
+      <span class="text">Read this &amp; please share. Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/P5ZwujLlYR</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/erikaheesen/status/558245864745877505"><time>Thu Jan 22 12:52:40 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/0e99ebd5884fa9cecf6ec78e664e8746_normal.png">
+      <a href="http://twitter.com/SciTechMuseum" class="name">#SciTechMuseum</a><br>
+      <span class="username">SciTechMuseum</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/LostOttawa:">@LostOttawa:</a> Wait for it ... wait for it ...  they will hatch if you wait for it, at Ottawa's Science and Tech Museum in the... http://t<a href="http://fb.me/1NHOy1Cwz">http://t.co/NdPCeXe2wB</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/SciTechMuseum/status/558244840413335552"><time>Thu Jan 22 12:48:36 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/twitter_normal.png">
+      <a href="http://twitter.com/thebeaconnews" class="name">Beacon</a><br>
+      <span class="username">thebeaconnews</span><br>
+      <br>
+      <span class="text">Dr. Harold Brown speaks to students at Liberty Aviation Museum:  On Monday, January 19, the children of Nehemi... <a href="http://bit.ly/1y0FigM">http://t.co/oqBkPVfWeJ</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/thebeaconnews/status/558144132422852611"><time>Thu Jan 22 06:08:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/default_profile_3_normal.png">
+      <a href="http://twitter.com/nojgr" class="name">Norma G</a><br>
+      <span class="username">nojgr</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/nojgr/status/558119623145848832"><time>Thu Jan 22 04:31:02 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/IMG00348-20111224-2032_normal.jpg">
+      <a href="http://twitter.com/gillianjessie" class="name">geejay</a><br>
+      <span class="username">gillianjessie</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/nojgr:">@nojgr:</a> <a href="http://twitter.com/PMStroud">@PMStroud</a>  <a href="http://twitter.com/MMGLK">@MMGLK</a>  Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/okWUQCj">http://t.co/I89ImsA7bM</a>  <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/gillianjessie/status/558071356273987585"><time>Thu Jan 22 01:19:14 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/2b27564a8774f168c3e254622e4607b5_normal.jpeg">
+      <a href="http://twitter.com/LostOttawa" class="name">Lost Ottawa</a><br>
+      <span class="username">LostOttawa</span><br>
+      <br>
+      <span class="text">Wait for it ... wait for it ...  they will hatch if you wait for it, at Ottawa's Science and Tech Museum in the... <a href="http://fb.me/1NHOy1Cwz">http://t.co/NdPCeXe2wB</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/LostOttawa/status/558066524255453185"><time>Thu Jan 22 01:00:02 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/95VGVE3W_normal.jpeg">
+      <a href="http://twitter.com/CSNREC" class="name">CSN-RÉC</a><br>
+      <span class="username">CSNREC</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/DWHauthor:">@DWHauthor:</a> Granatstein: Why is Ottawa sinking the Marine Museum of the Great Lakes at Kingston? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/cyu0lY61gJ</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/CSNREC/status/558066138459168772"><time>Thu Jan 22 00:58:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/ChimpThinks_normal.jpg">
+      <a href="http://twitter.com/AnnaAnthro" class="name">Anna Anthropologist</a><br>
+      <span class="username">AnnaAnthro</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/DWHauthor:">@DWHauthor:</a> Granatstein: Why is Ottawa sinking the Marine Museum of the Great Lakes at Kingston? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/cyu0lY61gJ</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/AnnaAnthro/status/558065130957996033"><time>Thu Jan 22 00:54:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/nPzCga_m_normal.jpeg">
+      <a href="http://twitter.com/DWHauthor" class="name">Douglas Hunter</a><br>
+      <span class="username">DWHauthor</span><br>
+      <br>
+      <span class="text">Granatstein: Why is Ottawa sinking the Marine Museum of the Great Lakes at Kingston? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/cyu0lY61gJ</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/DWHauthor/status/558063827196317698"><time>Thu Jan 22 00:49:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/faed33bf3d99042946596e1ae648b214_normal.jpeg">
+      <a href="http://twitter.com/dieselduckster" class="name">Martin Leduc</a><br>
+      <span class="username">dieselduckster</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/LebrunSimon:">@LebrunSimon:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/NIrZlhTVbP</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/dieselduckster/status/558054815092445186"><time>Thu Jan 22 00:13:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/64551fb104640322fd7e4dde78a2d42c_normal.png">
+      <a href="http://twitter.com/cable14" class="name">Cable 14 Hamilton</a><br>
+      <span class="username">cable14</span><br>
+      <br>
+      <span class="text">@TimHortons recently re-opened store <a href="https://twitter.com/search?q=%231&src=hash">#1</a> on Ottawa Street, including a museum dedicated to the chain. Video: <a href="http://tinyurl.com/pwrjw7o">http://t.co/rM1zYJcfaa</a> <a href="https://twitter.com/search?q=%23hamont&src=hash">#hamont</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/cable14/status/558052703834996736"><time>Thu Jan 22 00:05:07 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/b80cd7ea4d01086e4d92a714e06d756f_normal.jpeg">
+      <a href="http://twitter.com/MysteriesCanada" class="name">Unsolved Mysteries</a><br>
+      <span class="username">MysteriesCanada</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/bcgoldrushpress:">@bcgoldrushpress:</a> Feds to sell Kingston’s Marine Museum site - largest collection of books on Great Lakes <a href="http://fw.to/ydqvtQg">http://t.co/FEuNxwXz1q</a> <a href="https://twitter.com/search?q=%23cdnpol…&src=hash">#cdnpol…</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/MysteriesCanada/status/558041865971572737"><time>Wed Jan 21 23:22:03 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/UkD_1vVB_normal.jpeg">
+      <a href="http://twitter.com/tpross11" class="name">Trevor Pross</a><br>
+      <span class="username">tpross11</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/eBRDgu4MuO</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/tpross11/status/558021326150336512"><time>Wed Jan 21 22:00:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/n641770444_3784786_3914_normal.jpg">
+      <a href="http://twitter.com/daveallston" class="name">Dave Allston</a><br>
+      <span class="username">daveallston</span><br>
+      <br>
+      <span class="text">The eerie history of the Ottawa Bagelshop building! Posted late last night at the Kitchissippi Museum <a href="http://kitchissippimuseum.blogspot.ca/2015/01/the-secret-past-life-of-bagelshop.html">http://t.co/7HPJkVFAoJ</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/daveallston/status/558014536268414977"><time>Wed Jan 21 21:33:27 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/jXf0pxh__normal.jpeg">
+      <a href="http://twitter.com/SteveDaly15" class="name">Steve Daly, CD</a><br>
+      <span class="username">SteveDaly15</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/rcnnewsmag:">@rcnnewsmag:</a> Why is Ottawa sinking Kingston’s Marine Museum? - The Globe and Mail <a href="http://ow.ly/HIpz4">http://t.co/eLviG51mPx</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/SteveDaly15/status/557977382033063937"><time>Wed Jan 21 19:05:49 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/mayflowe_normal.jpg">
+      <a href="http://twitter.com/rcnnewsmag" class="name">RCN News Magazine</a><br>
+      <span class="username">rcnnewsmag</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? - The Globe and Mail <a href="http://ow.ly/HIpz4">http://t.co/eLviG51mPx</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/rcnnewsmag/status/557975399809171456"><time>Wed Jan 21 18:57:56 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/E3eDSKZx_normal.jpeg">
+      <a href="http://twitter.com/djshirlaw" class="name">Dave Shirlaw</a><br>
+      <span class="username">djshirlaw</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/jGfCu7aqsJ</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/djshirlaw/status/557975063388237824"><time>Wed Jan 21 18:56:36 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/kSySTeRQ_normal.jpeg">
+      <a href="http://twitter.com/NMHS_SeaHistory" class="name">Nat'lMaritimeHistSoc</a><br>
+      <span class="username">NMHS_SeaHistory</span><br>
+      <br>
+      <span class="text">The Marine Museum of the Great Lakes is being threatened with eviction. In addition to its merits as a maritime... <a href="http://fb.me/7jkBhwOkk">http://t.co/jjNTJbuL5D</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/NMHS_SeaHistory/status/557962125755559938"><time>Wed Jan 21 18:05:11 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/KmWm2Qaa_normal.jpeg">
+      <a href="http://twitter.com/LebrunSimon" class="name">Simon Lebrun </a><br>
+      <span class="username">LebrunSimon</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/NIrZlhTVbP</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/LebrunSimon/status/557959336451117056"><time>Wed Jan 21 17:54:06 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/AVQeftWo_normal.jpeg">
+      <a href="http://twitter.com/phillipblancher" class="name">Phillip Blancher</a><br>
+      <span class="username">phillipblancher</span><br>
+      <br>
+      <span class="text"><a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/sMFZ84Oryt</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/phillipblancher/status/557958255599976448"><time>Wed Jan 21 17:49:49 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/64551fb104640322fd7e4dde78a2d42c_normal.png">
+      <a href="http://twitter.com/cable14" class="name">Cable 14 Hamilton</a><br>
+      <span class="username">cable14</span><br>
+      <br>
+      <span class="text">@TimHortons recently re-opened store <a href="https://twitter.com/search?q=%231&src=hash">#1</a> on Ottawa Street, including a museum dedicated to the chain. Video: <a href="http://tinyurl.com/pwrjw7o">http://t.co/rM1zYJcfaa</a> <a href="https://twitter.com/search?q=%23hamont&src=hash">#hamont</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/cable14/status/557928036553990145"><time>Wed Jan 21 15:49:44 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/14be7b121ba92507b6911dccdcf31ff6_normal.jpeg">
+      <a href="http://twitter.com/paulaGshewchuk" class="name">Paula Shewchuk</a><br>
+      <span class="username">paulaGshewchuk</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/3Swd8jVjHk</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/paulaGshewchuk/status/557922706944196608"><time>Wed Jan 21 15:28:33 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/5p2bb95lvf6irho3wxw7_normal.jpeg">
+      <a href="http://twitter.com/stoneparkschool" class="name">Stonepark School</a><br>
+      <span class="username">stoneparkschool</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Targettours:">@Targettours:</a> <a href="http://twitter.com/stoneparkschool">@stoneparkschool</a> at Nature Museum this morning seeing dead animals. This is a Blue Whale skeleton. <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://t.co/EKO…</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/stoneparkschool/status/557909222026125312"><time>Wed Jan 21 14:34:58 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/NTmhmoLw_normal.jpeg">
+      <a href="http://twitter.com/Targettours" class="name">Target Tours</a><br>
+      <span class="username">Targettours</span><br>
+      <br>
+      <span class="text">@stoneparkschool at Nature Museum this morning seeing dead animals. This is a Blue Whale skeleton. <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> http://t.co/EKOoGreUcc</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/Targettours/status/557906775522156544"><time>Wed Jan 21 14:25:15 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/2b27564a8774f168c3e254622e4607b5_normal.jpeg">
+      <a href="http://twitter.com/LostOttawa" class="name">Lost Ottawa</a><br>
+      <span class="username">LostOttawa</span><br>
+      <br>
+      <span class="text">Ottawa's Orme Hall shared by the Bytown Museum
+
+Orme was not only an Ottawa piano-maker, but had a shop on Sparks... <a href="http://fb.me/75AxuQrnC">http://t.co/s3wX4qLYaw</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/LostOttawa/status/557877353544957955"><time>Wed Jan 21 12:28:20 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/n3ozNf3-_normal.png">
+      <a href="http://twitter.com/SarahWardAU" class="name">Sarah Ward</a><br>
+      <span class="username">SarahWardAU</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/CultLaw:">@CultLaw:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/eP2rgqlPSE</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/SarahWardAU/status/557866586166800387"><time>Wed Jan 21 11:45:33 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/WWsMTCeR_normal.jpeg">
+      <a href="http://twitter.com/alejandrosago16" class="name">Alejandro Sánchez Go</a><br>
+      <span class="username">alejandrosago16</span><br>
+      <br>
+      <span class="text">#arts <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> <a href="https://twitter.com/search?q=%23spider&src=hash">#spider</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23canada&src=hash">#canada</a> <a href="https://twitter.com/search?q=%23instapic&src=hash">#instapic</a> <a href="https://twitter.com/search?q=%23deluxefx&src=hash">#deluxefx</a> <a href="http://instagram.com/p/yHAfwJyUFM/">http://t.co/IRMiJVhW44</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/alejandrosago16/status/557818821671931906"><time>Wed Jan 21 08:35:45 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/n641770444_3784786_3914_normal.jpg">
+      <a href="http://twitter.com/daveallston" class="name">Dave Allston</a><br>
+      <span class="username">daveallston</span><br>
+      <br>
+      <span class="text">The Kitchissippi Museum has been updated! Click on over to learn the eerie history of the Ottawa Bagelshop location! <a href="http://kitchissippimuseum.blogspot.ca/2015/01/the-secret-past-life-of-bagelshop.html">http://t.co/7HPJkVFAoJ</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/daveallston/status/557755026320674817"><time>Wed Jan 21 04:22:15 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/5be3f182228a4710b5b5229d3902591f_normal.jpeg">
+      <a href="http://twitter.com/CultLaw" class="name">CulturalHeritageLaw</a><br>
+      <span class="username">CultLaw</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/eP2rgqlPSE</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/CultLaw/status/557735574266994688"><time>Wed Jan 21 03:04:57 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/fcf3a884852431d862aeb1e490ee2039_normal.jpeg">
+      <a href="http://twitter.com/DanielJBeals" class="name">Daniel J. Beals</a><br>
+      <span class="username">DanielJBeals</span><br>
+      <br>
+      <span class="text">Why is Ottawa siniking Kingston's marine museum? <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/HXpSlZXkp8</a> <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/DanielJBeals/status/557734824002473984"><time>Wed Jan 21 03:01:58 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/5e2134a3370e00c28702422d12477aeb_normal.jpeg">
+      <a href="http://twitter.com/nodgnurps" class="name">Don Sprung</a><br>
+      <span class="username">nodgnurps</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? - The Globe and Mail  <a href="http://ln.is/theglobeandmail.com/W2u08">http://t.co/F6HFqi7zdp</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/nodgnurps/status/557718544671313922"><time>Wed Jan 21 01:57:17 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/k6ulc0gqhrtftnpyxizm_normal.jpeg">
+      <a href="http://twitter.com/balboora" class="name">Baljinder Boora</a><br>
+      <span class="username">balboora</span><br>
+      <br>
+      <span class="text">Well good question. Why did Ottawa fired some top notch scientists? <a href="http://fb.me/2h3gKQe4z">http://t.co/XxA0YSdtnq</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/balboora/status/557708023918243840"><time>Wed Jan 21 01:15:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/OnvVNVGT_normal.jpeg">
+      <a href="http://twitter.com/KittyKat1961" class="name">Kat McNamara</a><br>
+      <span class="username">KittyKat1961</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/GJsqMvUhDL</a>
+#cdnpoli with  RMC in Kingston the museum needs to be preserved</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/KittyKat1961/status/557673572421107712"><time>Tue Jan 20 22:58:35 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/CQWs1ZUs_normal.jpeg">
+      <a href="http://twitter.com/CanWarMuseum" class="name">Canadian War Museum</a><br>
+      <span class="username">CanWarMuseum</span><br>
+      <br>
+      <span class="text">Thx for visiting! MT <a href="http://twitter.com/Ottawa_Tourism">@Ottawa_Tourism</a>  <a href="http://twitter.com/UofT">@UofT</a> museum studies students visit 7 museums <a href="http://ow.ly/HEZ3J">http://t.co/1wwUzqKqwO</a> <a href="https://twitter.com/search?q=%23MMStTo&src=hash">#MMStTo</a> <a href="https://twitter.com/search?q=%23musingsmmst&src=hash">#musingsmmst</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/CanWarMuseum/status/557659945437777920"><time>Tue Jan 20 22:04:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/DSC00411_normal.JPG">
+      <a href="http://twitter.com/costisd" class="name">Costis Dallas</a><br>
+      <span class="username">costisd</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/ottawa_tourism">@ottawa_tourism</a> 7 museums whirlwind Ottawa trip by <a href="http://twitter.com/UofT">@UofT</a> museum studies students <a href="http://ow.ly/HEuHc">http://t.co/PgiP8Z5EO1</a> <a href="https://twitter.com/search?q=%23MMStTo&src=hash">#MMStTo</a> <a href="https://twitter.com/search?q=%23musingsmmst&src=hash">#musingsmmst</a> <a href="http://twitter.com/ischool_TO">@ischool_TO</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/costisd/status/557657828367024129"><time>Tue Jan 20 21:56:01 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/6H1izWcX_normal.jpeg">
+      <a href="http://twitter.com/CanMusHistory" class="name">Museum of History</a><br>
+      <span class="username">CanMusHistory</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/ottawa_tourism:">@ottawa_tourism:</a> 7 museum whirlwind Ottawa trip by <a href="http://twitter.com/UofT">@UofT</a> iSchool museum studies students <a href="http://ow.ly/HEuHc">http://t.co/4GmUBVtW04</a> <a href="https://twitter.com/search?q=%23blog&src=hash">#blog</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/CanMusHistory/status/557655914619346944"><time>Tue Jan 20 21:48:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/_QcBJ_IY_normal.jpeg">
+      <a href="http://twitter.com/amodeo51" class="name">thebeav</a><br>
+      <span class="username">amodeo51</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Ottawa_Tourism:">@Ottawa_Tourism:</a> 7 museum whirlwind Ottawa trip by <a href="http://twitter.com/UofT">@UofT</a> iSchool museum studies students <a href="http://twitter.com/musingsmmst">@musingsmmst</a> <a href="http://ow.ly/HEuHc">http://t.co/b2vr4IwnqT</a> <a href="https://twitter.com/search?q=%23museums&src=hash">#museums</a> <a href="https://twitter.com/search?q=%23o…&src=hash">#o…</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/amodeo51/status/557628826197692416"><time>Tue Jan 20 20:00:47 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/rNTupCRW_normal.jpeg">
+      <a href="http://twitter.com/Ottawa_Tourism" class="name">Ottawa Tourism</a><br>
+      <span class="username">Ottawa_Tourism</span><br>
+      <br>
+      <span class="text">7 museum whirlwind Ottawa trip by <a href="http://twitter.com/UofT">@UofT</a> iSchool museum studies students <a href="http://twitter.com/musingsmmst">@musingsmmst</a> <a href="http://ow.ly/HEuHc">http://t.co/b2vr4IwnqT</a> <a href="https://twitter.com/search?q=%23museums&src=hash">#museums</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/Ottawa_Tourism/status/557624448661344256"><time>Tue Jan 20 19:43:23 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/self_icon_normal.png">
+      <a href="http://twitter.com/richardgorrie" class="name">Richard Gorrie</a><br>
+      <span class="username">richardgorrie</span><br>
+      <br>
+      <span class="text">I don’t always agree with Granatstein. "Why is Ottawa sinking Kingston’s Marine Museum?” <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/dsoOWnI3Wn</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/richardgorrie/status/557621202592600065"><time>Tue Jan 20 19:30:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/_85YljYs_normal.jpeg">
+      <a href="http://twitter.com/JayneLoganMxxx" class="name">Jayne </a><br>
+      <span class="username">JayneLoganMxxx</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/jimbobbysez:">@jimbobbysez:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://ow.ly/HEi0L">http://t.co/7btFqx5JJV</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/JayneLoganMxxx/status/557616788767129600"><time>Tue Jan 20 19:12:57 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/eDpt77wf_normal.png">
+      <a href="http://twitter.com/The_Miss_Greer" class="name">Mostly just Miss</a><br>
+      <span class="username">The_Miss_Greer</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/jimbobbysez:">@jimbobbysez:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://ow.ly/HEi0L">http://t.co/7btFqx5JJV</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/The_Miss_Greer/status/557616338559307778"><time>Tue Jan 20 19:11:09 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Xx3XdHrM_normal.jpeg">
+      <a href="http://twitter.com/jimbobbysez" class="name">jimbobbysez</a><br>
+      <span class="username">jimbobbysez</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://ow.ly/HEi0L">http://t.co/7btFqx5JJV</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/jimbobbysez/status/557611237929127936"><time>Tue Jan 20 18:50:53 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/7pqlufkX_normal.png">
+      <a href="http://twitter.com/bcgoldrushpress" class="name">BC Gold Rush Press</a><br>
+      <span class="username">bcgoldrushpress</span><br>
+      <br>
+      <span class="text">Feds to sell Kingston’s Marine Museum site - largest collection of books on Great Lakes <a href="http://fw.to/ydqvtQg">http://t.co/FEuNxwXz1q</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23cdnhistory&src=hash">#cdnhistory</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/bcgoldrushpress/status/557610311981604864"><time>Tue Jan 20 18:47:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/set_normal.jpg">
+      <a href="http://twitter.com/Alexander_Butt" class="name">Alexander Butt</a><br>
+      <span class="username">Alexander_Butt</span><br>
+      <br>
+      <span class="text">Where's Katy? <a href="https://twitter.com/search?q=%23trex&src=hash">#trex</a> <a href="https://twitter.com/search?q=%23dinosaur&src=hash">#dinosaur</a> <a href="https://twitter.com/search?q=%23ross&src=hash">#ross</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> @ Canadian Museum of Nature - Musée canadien de la nature <a href="http://instagram.com/p/yFTLeBO5Mi/">http://t.co/U1ERj3TFmG</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Alexander_Butt/status/557578431496744960"><time>Tue Jan 20 16:40:32 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/kgGgzDzZ_normal.jpeg">
+      <a href="http://twitter.com/andrewlabaj" class="name">Andrew Labaj</a><br>
+      <span class="username">andrewlabaj</span><br>
+      <br>
+      <span class="text">A sad read. I hope something can be done to save the Marine Museum. <a href="http://tinyurl.com/porrvp7">http://t.co/7bFpv224kx</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/andrewlabaj/status/557578324130951168"><time>Tue Jan 20 16:40:06 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/h9GjPqVr_normal.jpeg">
+      <a href="http://twitter.com/AndreaPCurtis" class="name">Andrea Curtis</a><br>
+      <span class="username">AndreaPCurtis</span><br>
+      <br>
+      <span class="text">Shortsightedness of Harper govt never ceases 2 amaze. The latest (probable) loss: Marine Museum of Great Lakes: <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/GcMH3hicjZ</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/AndreaPCurtis/status/557577664656343040"><time>Tue Jan 20 16:37:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/BDA4GFbu_normal.jpeg">
+      <a href="http://twitter.com/joshcoles" class="name">Josh Coles</a><br>
+      <span class="username">joshcoles</span><br>
+      <br>
+      <span class="text">On a bus tour of Ottawa. Can't wait to dig into the new Rideau Centre good court's famous grilled cheese sandwiches. War Museum later.</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/joshcoles/status/557576009588174848"><time>Tue Jan 20 16:30:54 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/KSYSXKYE_normal.jpeg">
+      <a href="http://twitter.com/AllanGood1" class="name">Allan Good</a><br>
+      <span class="username">AllanGood1</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/JimNeill3:">@JimNeill3:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/AllanGood1/status/557570579386343424"><time>Tue Jan 20 16:09:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/H3AWKGs-_normal.jpeg">
+      <a href="http://twitter.com/ecomtechnology_" class="name">eComTechnology</a><br>
+      <span class="username">ecomtechnology_</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/p9Iscz5f7G</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/ecomtechnology_/status/557560465727844352"><time>Tue Jan 20 15:29:08 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/SZ4QgUFj_normal.jpeg">
+      <a href="http://twitter.com/OriginalShipstr" class="name">Heather Elliott</a><br>
+      <span class="username">OriginalShipstr</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/OriginalShipstr/status/557555944931217409"><time>Tue Jan 20 15:11:10 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Vql2IJvV_normal.jpeg">
+      <a href="http://twitter.com/spiderzjay" class="name">Jeffrey Martin</a><br>
+      <span class="username">spiderzjay</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/bmaggiemay:">@bmaggiemay:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/HZ2pY3nm8X</a>. Part of Harper's plan to rewrite Canadian History t…</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/spiderzjay/status/557553388138016769"><time>Tue Jan 20 15:01:01 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/9rk2EX5X_normal.jpeg">
+      <a href="http://twitter.com/farmboy1111" class="name">George Malcolm</a><br>
+      <span class="username">farmboy1111</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/bmaggiemay:">@bmaggiemay:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/HZ2pY3nm8X</a>. Part of Harper's plan to rewrite Canadian History t…</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/farmboy1111/status/557553187901931521"><time>Tue Jan 20 15:00:13 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/ba46b699c8392e07159c1bd69b41a94f_normal.jpeg">
+      <a href="http://twitter.com/olderladybug" class="name">audrey davis</a><br>
+      <span class="username">olderladybug</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/bmaggiemay:">@bmaggiemay:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/HZ2pY3nm8X</a>. Part of Harper's plan to rewrite Canadian History t…</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/olderladybug/status/557550083424919552"><time>Tue Jan 20 14:47:53 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/bvTQnnok_normal.jpeg">
+      <a href="http://twitter.com/bmaggiemay" class="name">bmaggiemay</a><br>
+      <span class="username">bmaggiemay</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/HZ2pY3nm8X</a>. Part of Harper's plan to rewrite Canadian History to his liking?</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/bmaggiemay/status/557549584747331584"><time>Tue Jan 20 14:45:54 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/27c6ab5c19d60caabcf273e07d1341ec_normal.jpeg">
+      <a href="http://twitter.com/LonCPM" class="name">Michelle Owens</a><br>
+      <span class="username">LonCPM</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/hsQB3KZ6Xy</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/LonCPM/status/557546253647892480"><time>Tue Jan 20 14:32:40 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Nor_woods_normal.jpg">
+      <a href="http://twitter.com/Norlaine" class="name">Norlaine Thomas</a><br>
+      <span class="username">Norlaine</span><br>
+      <br>
+      <span class="text">#HarpersRecord: Why is Ottawa sinking Kingston’s Marine Museum? - The Globe and Mail - <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252">http://t.co/cUPAY2FUC5</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Norlaine/status/557536128455045120"><time>Tue Jan 20 13:52:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/P8090001_normal.JPG">
+      <a href="http://twitter.com/Sydneystpeters" class="name">Robert R Rogers</a><br>
+      <span class="username">Sydneystpeters</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/Ypc0lJxMGM</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Sydneystpeters/status/557526922121719808"><time>Tue Jan 20 13:15:51 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/f7b11fdc542ab36553222b6432f3b2aa_normal.jpeg">
+      <a href="http://twitter.com/GwenTuinman" class="name">Gwen Tuinman</a><br>
+      <span class="username">GwenTuinman</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/FNcQ8BPgSf</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/GwenTuinman/status/557516309995737088"><time>Tue Jan 20 12:33:41 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Zukerman_Earl_131x177_normal.jpg">
+      <a href="http://twitter.com/EarlZukerman" class="name">Earl Zukerman</a><br>
+      <span class="username">EarlZukerman</span><br>
+      <br>
+      <span class="text">ARTICLE: History museum pays $300,000 for world’s oldest hockey stick (with video) | Ottawa Citizen <a href="http://ottawacitizen.com/entertainment/local-arts/history-museum-pays-300000-for-worlds-oldest-hockey-stick">http://t.co/EdPFf4qzGW</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/EarlZukerman/status/557457782589628416"><time>Tue Jan 20 08:41:07 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/I3CeRqsI_normal.png">
+      <a href="http://twitter.com/Colettestweeter" class="name">Reclaim Democracy</a><br>
+      <span class="username">Colettestweeter</span><br>
+      <br>
+      <span class="text">Another Harper victim. He hates knowledge. <a href="http://fb.me/6jEF022bz">http://t.co/Gov61SvGoF</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Colettestweeter/status/557412378640662528"><time>Tue Jan 20 05:40:41 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/CbM04ABT_normal.png">
+      <a href="http://twitter.com/DougQuantz" class="name">Doug Quantz</a><br>
+      <span class="username">DougQuantz</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/JimNeill3:">@JimNeill3:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/DougQuantz/status/557404307310788608"><time>Tue Jan 20 05:08:37 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Max_van_Balgooy_2011_normal.jpg">
+      <a href="http://twitter.com/Maxvanbalgooy" class="name">Max van Balgooy</a><br>
+      <span class="username">Maxvanbalgooy</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine <a href="https://twitter.com/search?q=%23Museum?&src=hash">#Museum?</a> <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/tLA7dWPbng</a> National Historic Site to be auctioned on Jan 31.</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Maxvanbalgooy/status/557391298148462592"><time>Tue Jan 20 04:16:55 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/VcchHVIe_normal.jpeg">
+      <a href="http://twitter.com/RLitwiller" class="name">R. Litwiller -Author</a><br>
+      <span class="username">RLitwiller</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/RLitwiller/status/557390830076723200"><time>Tue Jan 20 04:15:04 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/WONfOV7g_normal.jpeg">
+      <a href="http://twitter.com/ghostcatbce" class="name">Cat Neshine</a><br>
+      <span class="username">ghostcatbce</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/JimNeill3:">@JimNeill3:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/ghostcatbce/status/557354877953654784"><time>Tue Jan 20 01:52:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/OoMPiCMx_normal.jpeg">
+      <a href="http://twitter.com/ferguss0" class="name">Stevenson Fergus</a><br>
+      <span class="username">ferguss0</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/JimNeill3:">@JimNeill3:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/ferguss0/status/557352918463311872"><time>Tue Jan 20 01:44:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Smilebox_9703784_normal.jpg">
+      <a href="http://twitter.com/Scruffy19" class="name">Linda White</a><br>
+      <span class="username">Scruffy19</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/JimNeill3:">@JimNeill3:</a> Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/Scruffy19/status/557351073938440192"><time>Tue Jan 20 01:37:05 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/doQnVTBR_normal.jpeg">
+      <a href="http://twitter.com/JimNeill3" class="name">Jim Neill</a><br>
+      <span class="username">JimNeill3</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? /via <a href="http://twitter.com/globeandmail">@globeandmail</a> <a href="http://m.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/?utm_source=twitter.com&utm_medium=Referrer:+Social+Network+/+Media&utm_campaign=Shared+Web+Article+Links">http://t.co/VIMu4RdrRo</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/JimNeill3/status/557350454150328322"><time>Tue Jan 20 01:34:37 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/85392a0ba1a4668ecdea43a0ac15ca90_normal.jpeg">
+      <a href="http://twitter.com/sandymcclearn" class="name">Sandy McClearn</a><br>
+      <span class="username">sandymcclearn</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/sandymcclearn/status/557347399744909312"><time>Tue Jan 20 01:22:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/2717a9641e476a85da370e87ad6a8e20_normal.jpeg">
+      <a href="http://twitter.com/xxXCrossfireXxx" class="name">The Observer</a><br>
+      <span class="username">xxXCrossfireXxx</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston's Marine Museum? <a href="http://news360.com/article/274965408">http://t.co/t8nQCTGKZ5</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/xxXCrossfireXxx/status/557341320629735424"><time>Tue Jan 20 00:58:20 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/645N2lvY_normal.jpeg">
+      <a href="http://twitter.com/justinopeterso1" class="name">highly recommend auc</a><br>
+      <span class="username">justinopeterso1</span><br>
+      <br>
+      <span class="text">CANADA SCOTT 727 USED BLOCK POSTAL MUSEUM OTTAWA CANADA 9 V 79 CANCEL. <a href="http://gekoo.co/buy/01/?query=391033368765">http://t.co/Qzb8Q77wUa</a> http://t.co/cD2WBiDvGS</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/justinopeterso1/status/557336322797735938"><time>Tue Jan 20 00:38:28 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/_85YljYs_normal.jpeg">
+      <a href="http://twitter.com/JayneLoganMxxx" class="name">Jayne </a><br>
+      <span class="username">JayneLoganMxxx</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MyPetGloat:">@MyPetGloat:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/AO5dsRB">http://t.co/yiV0uHz2Nw</a> Harper needs to "balance the budget" one time for vo…</span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/JayneLoganMxxx/status/557315634137014272"><time>Mon Jan 19 23:16:16 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/WONfOV7g_normal.jpeg">
+      <a href="http://twitter.com/ghostcatbce" class="name">Cat Neshine</a><br>
+      <span class="username">ghostcatbce</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MyPetGloat:">@MyPetGloat:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/AO5dsRB">http://t.co/yiV0uHz2Nw</a> Harper needs to "balance the budget" one time for vo…</span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/ghostcatbce/status/557306768368205824"><time>Mon Jan 19 22:41:02 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/zqP9FxVo_normal.jpeg">
+      <a href="http://twitter.com/MyPetGloat" class="name">Ebenezer Harper</a><br>
+      <span class="username">MyPetGloat</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/AO5dsRB">http://t.co/yiV0uHz2Nw</a> Harper needs to "balance the budget" one time for votes.</span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/MyPetGloat/status/557305992300343296"><time>Mon Jan 19 22:37:57 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/lqA5iTWY_normal.jpeg">
+      <a href="http://twitter.com/frankredbird" class="name">Paul Harbridge</a><br>
+      <span class="username">frankredbird</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://tgam.ca/EH6y">http://t.co/rFhDz1tOjE</a> via <a href="http://twitter.com/globeandmail
+Why?">@globeandmail
+Why?</a> Because our PM is a troglodyte. <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/frankredbird/status/557304156193820675"><time>Mon Jan 19 22:30:39 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/TVCgL3mQ_normal.jpeg">
+      <a href="http://twitter.com/MurfAD" class="name">Murf</a><br>
+      <span class="username">MurfAD</span><br>
+      <br>
+      <span class="text">Why is <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> sinking <a href="https://twitter.com/search?q=%23Kingston’s&src=hash">#Kingston’s</a> Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/GwYCr4ydOJ</a> <a href="https://twitter.com/search?q=%23Cdnpoli&src=hash">#Cdnpoli</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/MurfAD/status/557295712644653057"><time>Mon Jan 19 21:57:06 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/me3_small_normal.jpg">
+      <a href="http://twitter.com/sloppyjoe1" class="name">joe stierman</a><br>
+      <span class="username">sloppyjoe1</span><br>
+      <br>
+      <span class="text">Tomorrow: Bagel place, switch hotels, art museum, smoked meat place, Canadiens game. Weds: Ottawa</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/sloppyjoe1/status/557286790923829248"><time>Mon Jan 19 21:21:39 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/CbM04ABT_normal.png">
+      <a href="http://twitter.com/DougQuantz" class="name">Doug Quantz</a><br>
+      <span class="username">DougQuantz</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/gordbrown:">@gordbrown:</a> Tour and wreath laying at National War Museum in Ottawa with LIthuanian Defence  Minister Juozas Olekas http://t.co/orut9pHG…</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/DougQuantz/status/557284287771607041"><time>Mon Jan 19 21:11:42 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/udG-NrpS_normal.jpeg">
+      <a href="http://twitter.com/14billygoats" class="name">D'niel</a><br>
+      <span class="username">14billygoats</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Puycelsi:">@Puycelsi:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a> <a href="https://twitter.com/search?q=%23regret&src=hash">#regret</a> <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/Spv5uKvvA3</a> cc: <a href="http://twitter.com/pmharper">@pmharper</a> <a href="https://twitter.com/search?q=%23CanadianHistory&src=hash">#CanadianHistory</a> …</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/14billygoats/status/557276994665463808"><time>Mon Jan 19 20:42:43 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/eW2G0gkl_normal.jpeg">
+      <a href="http://twitter.com/gordbrown" class="name">Gord Brown</a><br>
+      <span class="username">gordbrown</span><br>
+      <br>
+      <span class="text">Tour and wreath laying at National War Museum in Ottawa with LIthuanian Defence  Minister Juozas Olekas http://t.co/orut9pHGi8</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/gordbrown/status/557261780691324928"><time>Mon Jan 19 19:42:16 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/7x078xKW_normal.jpeg">
+      <a href="http://twitter.com/SirJohnA2015" class="name">SirJohnA2015.ca</a><br>
+      <span class="username">SirJohnA2015</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Puycelsi:">@Puycelsi:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a> <a href="https://twitter.com/search?q=%23regret&src=hash">#regret</a> <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/Spv5uKvvA3</a> cc: <a href="http://twitter.com/pmharper">@pmharper</a> <a href="https://twitter.com/search?q=%23CanadianHistory&src=hash">#CanadianHistory</a> …</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/SirJohnA2015/status/557260862139170817"><time>Mon Jan 19 19:38:37 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/325902312e8f8fd1be5588a355fc5cb8_normal.jpeg">
+      <a href="http://twitter.com/GlanmoreNHS" class="name">Glanmore NHS</a><br>
+      <span class="username">GlanmoreNHS</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/GlanmoreNHS/status/557260166492864512"><time>Mon Jan 19 19:35:51 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/tEZ8PBgK_normal.jpeg">
+      <a href="http://twitter.com/JtheMarshall" class="name">Mason Jar</a><br>
+      <span class="username">JtheMarshall</span><br>
+      <br>
+      <span class="text">Favorite <a href="https://twitter.com/search?q=%23photo&src=hash">#photo</a> of my <a href="https://twitter.com/search?q=%23niece&src=hash">#niece</a> taken at the <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> of <a href="https://twitter.com/search?q=%23science&src=hash">#science</a> and <a href="https://twitter.com/search?q=%23technology&src=hash">#technology</a> in <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> just waiting… <a href="http://instagram.com/p/yDCaDUsHki/">http://t.co/oZiFsfFQEC</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/JtheMarshall/status/557260074964770816"><time>Mon Jan 19 19:35:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/weddingphoto_normal.jpg">
+      <a href="http://twitter.com/KaitlinNormandi" class="name">Kaitlin Normandin</a><br>
+      <span class="username">KaitlinNormandi</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/KOWD5Sdt79</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/KaitlinNormandi/status/557260001782562816"><time>Mon Jan 19 19:35:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/l74crLG1_normal.jpeg">
+      <a href="http://twitter.com/ExpoDalton" class="name">Laurie Dalton</a><br>
+      <span class="username">ExpoDalton</span><br>
+      <br>
+      <span class="text">Thought-provoking article on the challenges and futures of small public history museums RT: <a href="http://twitter.com/HeritageCanada,">@HeritageCanada,</a> <a href="http://fw.to/ydqvtQg">http://t.co/xOEtXenYMG</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/ExpoDalton/status/557259906961924097"><time>Mon Jan 19 19:34:49 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/zYj1LHhc_normal.jpeg">
+      <a href="http://twitter.com/VisitKingston1" class="name">Visit Kingston </a><br>
+      <span class="username">VisitKingston1</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Puycelsi:">@Puycelsi:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a> <a href="https://twitter.com/search?q=%23regret&src=hash">#regret</a> <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/Spv5uKvvA3</a> cc: <a href="http://twitter.com/pmharper">@pmharper</a> <a href="https://twitter.com/search?q=%23CanadianHistory&src=hash">#CanadianHistory</a> …</span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/VisitKingston1/status/557259633090252800"><time>Mon Jan 19 19:33:44 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/cs6ua5CP_normal.jpeg">
+      <a href="http://twitter.com/PMStroud" class="name">Peter M Stroud</a><br>
+      <span class="username">PMStroud</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/nojgr:">@nojgr:</a> <a href="http://twitter.com/PMStroud">@PMStroud</a>  <a href="http://twitter.com/MMGLK">@MMGLK</a>  Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/okWUQCj">http://t.co/I89ImsA7bM</a>  <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/PMStroud/status/557250492883943424"><time>Mon Jan 19 18:57:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/3b9632a82497d38ecf557c3f7286541a_normal.jpeg">
+      <a href="http://twitter.com/kd_mercer" class="name">Keith Mercer</a><br>
+      <span class="username">kd_mercer</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/kd_mercer/status/557249733904060416"><time>Mon Jan 19 18:54:24 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/b9d71600fa0a135c0a53c386b9ccfe91_normal.jpeg">
+      <a href="http://twitter.com/builtHFX" class="name">builtHFX</a><br>
+      <span class="username">builtHFX</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/builtHFX/status/557249072130953217"><time>Mon Jan 19 18:51:46 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/seaman2_normal.png">
+      <a href="http://twitter.com/HfxShippingNews" class="name">HalifaxShippingNews</a><br>
+      <span class="username">HfxShippingNews</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/HfxShippingNews/status/557249072118390785"><time>Mon Jan 19 18:51:46 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/TwittGDWeb_normal.gif">
+      <a href="http://twitter.com/Puycelsi" class="name">Asia</a><br>
+      <span class="username">Puycelsi</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a> <a href="https://twitter.com/search?q=%23regret&src=hash">#regret</a> <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/Spv5uKvvA3</a> cc: <a href="http://twitter.com/pmharper">@pmharper</a> <a href="https://twitter.com/search?q=%23CanadianHistory&src=hash">#CanadianHistory</a> <a href="https://twitter.com/search?q=%23sirJAM&src=hash">#sirJAM</a></span><br>
+      <footer>
+      3 Retweets<br>
+      <a href="http://twitter.com/Puycelsi/status/557249004850118657"><time>Mon Jan 19 18:51:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/9f686e93df78001f95ad4a0591404310_normal.jpeg">
+      <a href="http://twitter.com/wanderu" class="name">Andrew Jeanes</a><br>
+      <span class="username">wanderu</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/HeritageCanada:">@HeritageCanada:</a> Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/wanderu/status/557248529186709504"><time>Mon Jan 19 18:49:37 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/default_profile_3_normal.png">
+      <a href="http://twitter.com/nojgr" class="name">Norma G</a><br>
+      <span class="username">nojgr</span><br>
+      <br>
+      <span class="text">@PMStroud  <a href="http://twitter.com/MMGLK">@MMGLK</a>  Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/okWUQCj">http://t.co/I89ImsA7bM</a>  <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a> <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/nojgr/status/557246344029818880"><time>Mon Jan 19 18:40:56 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/e26751b03027992c14f3b66981acf740_normal.jpeg">
+      <a href="http://twitter.com/HeritageCanada" class="name">Heritage Canada</a><br>
+      <span class="username">HeritageCanada</span><br>
+      <br>
+      <span class="text">Kingston’s Marine Museum of the Great Lakes on verge of sinking. <a href="http://fw.to/ydqvtQg">http://t.co/WrvhiKC8rA</a></span><br>
+      <footer>
+      9 Retweets<br>
+      <a href="http://twitter.com/HeritageCanada/status/557241957819224064"><time>Mon Jan 19 18:23:30 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/qRhNxdwo_normal.jpeg">
+      <a href="http://twitter.com/welamooktook" class="name">Theresa Suart</a><br>
+      <span class="username">welamooktook</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/nTZ8tMyp26</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/welamooktook/status/557238495677534209"><time>Mon Jan 19 18:09:45 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/da6c34180fb24319c2172781cedb377c_normal.jpeg">
+      <a href="http://twitter.com/griffydeck" class="name">James Griffith</a><br>
+      <span class="username">griffydeck</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/iuDzgxsgxC</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/griffydeck/status/557234345614651392"><time>Mon Jan 19 17:53:15 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/set_normal.jpg">
+      <a href="http://twitter.com/Alexander_Butt" class="name">Alexander Butt</a><br>
+      <span class="username">Alexander_Butt</span><br>
+      <br>
+      <span class="text">Where's Katy? <a href="https://twitter.com/search?q=%23hideandseek&src=hash">#hideandseek</a> <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> @ Canadian Museum of History <a href="http://instagram.com/p/yC06kHO5Kv/">http://t.co/X8r0OFJb5C</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Alexander_Butt/status/557230405007732736"><time>Mon Jan 19 17:37:36 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/Sn-TZdJX_normal.png">
+      <a href="http://twitter.com/WatLib" class="name">Waterloo Liberals</a><br>
+      <span class="username">WatLib</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/RkIl37uNq0</a> <a href="https://twitter.com/search?q=%23cdnpoli&src=hash">#cdnpoli</a> <a href="https://twitter.com/search?q=%23LPC&src=hash">#LPC</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/WatLib/status/557225996181843968"><time>Mon Jan 19 17:20:04 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/IMG00348-20111224-2032_normal.jpg">
+      <a href="http://twitter.com/gillianjessie" class="name">geejay</a><br>
+      <span class="username">gillianjessie</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/gillianjessie/status/557224190538158081"><time>Mon Jan 19 17:12:54 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/8dac09bf64aa23a64e9a82fad3c83481_normal.jpeg">
+      <a href="http://twitter.com/renukamendiss" class="name">renuka mendis</a><br>
+      <span class="username">renukamendiss</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/thatkatetaylor:">@thatkatetaylor:</a> Can we save Kingston’s Marine Museum? <a href="http://fw.to/YG9czsa">http://t.co/X1ea4B7Smi</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/renukamendiss/status/557223061699973121"><time>Mon Jan 19 17:08:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/GVa7Oj5W_normal.jpeg">
+      <a href="http://twitter.com/cwaddell27" class="name">Christopher Waddell</a><br>
+      <span class="username">cwaddell27</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/32NK88SEmY</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/cwaddell27/status/557222569934589952"><time>Mon Jan 19 17:06:28 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/On_5SLnB_normal.jpeg">
+      <a href="http://twitter.com/thatkatetaylor" class="name">Kate Taylor</a><br>
+      <span class="username">thatkatetaylor</span><br>
+      <br>
+      <span class="text">Can we save Kingston’s Marine Museum? <a href="http://fw.to/YG9czsa">http://t.co/X1ea4B7Smi</a></span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/thatkatetaylor/status/557221504161959936"><time>Mon Jan 19 17:02:13 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/3ed3fd144c30839d17ff1d7eb63ad2d2_normal.jpeg">
+      <a href="http://twitter.com/TheMetalBunny" class="name">Peter Poruks</a><br>
+      <span class="username">TheMetalBunny</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/7CgASIff3q</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/TheMetalBunny/status/557216807895846912"><time>Mon Jan 19 16:43:34 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/mJB5OwvZ_normal.png">
+      <a href="http://twitter.com/museumsontario" class="name">OntarioMuseums</a><br>
+      <span class="username">museumsontario</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/museumsontario/status/557211120852008961"><time>Mon Jan 19 16:20:58 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/SgiwiQWZ_normal.jpeg">
+      <a href="http://twitter.com/avidfortech" class="name">avidfortech</a><br>
+      <span class="username">avidfortech</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston's Marine Museum? <a href="http://news360.com/article/274965408">http://t.co/sqH9WjBgVc</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/avidfortech/status/557208036029526017"><time>Mon Jan 19 16:08:42 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/zYj1LHhc_normal.jpeg">
+      <a href="http://twitter.com/VisitKingston1" class="name">Visit Kingston </a><br>
+      <span class="username">VisitKingston1</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/VisitKingston1/status/557205451540942849"><time>Mon Jan 19 15:58:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/_fPwPQQr_normal.jpeg">
+      <a href="http://twitter.com/JPBorisko" class="name">Jeff Borisko</a><br>
+      <span class="username">JPBorisko</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Chrystal_Wilson:">@Chrystal_Wilson:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/1G0P1AXDtY</a> <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/JPBorisko/status/557202404618559488"><time>Mon Jan 19 15:46:20 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/U4yhvFLq_normal.jpeg">
+      <a href="http://twitter.com/AnneLougheed" class="name">Anne Lougheed</a><br>
+      <span class="username">AnneLougheed</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/Chrystal_Wilson:">@Chrystal_Wilson:</a> Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/1G0P1AXDtY</a> <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/AnneLougheed/status/557200967226380288"><time>Mon Jan 19 15:40:37 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/tmOyg0y5_normal.jpeg">
+      <a href="http://twitter.com/kingstonwrecks" class="name">Preserve Our Wrecks</a><br>
+      <span class="username">kingstonwrecks</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/iKL232rUOu</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/kingstonwrecks/status/557200922187939840"><time>Mon Jan 19 15:40:26 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/8UQ8y9Y0_normal.png">
+      <a href="http://twitter.com/YGKReTweeter" class="name">YGK ReTweeter</a><br>
+      <span class="username">YGKReTweeter</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MMGLK:">@MMGLK:</a> Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/YGKReTweeter/status/557197688375353345"><time>Mon Jan 19 15:27:35 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/de_costa_normal.jpg">
+      <a href="http://twitter.com/RuthBarbaraB" class="name">Ruth Barbara Burns</a><br>
+      <span class="username">RuthBarbaraB</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/L5qb1fQZfY</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/RuthBarbaraB/status/557195599418634241"><time>Mon Jan 19 15:19:17 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/xdx0P_dW_normal.jpeg">
+      <a href="http://twitter.com/Chrystal_Wilson" class="name">Chrystal Wilson</a><br>
+      <span class="username">Chrystal_Wilson</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/1G0P1AXDtY</a> <a href="https://twitter.com/search?q=%23ygk&src=hash">#ygk</a> <a href="https://twitter.com/search?q=%23ygkc&src=hash">#ygkc</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/Chrystal_Wilson/status/557194918725046272"><time>Mon Jan 19 15:16:35 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/kKHqwX7J_normal.jpeg">
+      <a href="http://twitter.com/MMGLK" class="name">The Marine Museum</a><br>
+      <span class="username">MMGLK</span><br>
+      <br>
+      <span class="text">Wow! We're in the <a href="http://twitter.com/globeandmail!">@globeandmail!</a> Read the special featuring the Marine Museum below.
+Link: <a href="http://bit.ly/1yDjbSE">http://t.co/bUE8fCt4nD</a>
+
+#ygk <a href="https://twitter.com/search?q=%23heritage&src=hash">#heritage</a></span><br>
+      <footer>
+      10 Retweets<br>
+      <a href="http://twitter.com/MMGLK/status/557194728274669568"><time>Mon Jan 19 15:15:50 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/a1db03c1-56b5-4c31-a4f5-5e69a1c11588_normal.png">
+      <a href="http://twitter.com/RSMacPherson" class="name">Ronald S. MacPherson</a><br>
+      <span class="username">RSMacPherson</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/historycanada:">@historycanada:</a> Jack Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/33rQ1ru6tp</a> <a href="https://twitter.com/search?q=%23cdnhist&src=hash">#cdnhist</a> <a href="https://twitter.com/search?q=%23cdnhistory&src=hash">#cdnhistory</a> <a href="https://twitter.com/search?q=%23canadianh…&src=hash">#canadianh…</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/RSMacPherson/status/557194658011693056"><time>Mon Jan 19 15:15:33 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/99pRxIQA_normal.jpeg">
+      <a href="http://twitter.com/jiwontina" class="name">Tina J. Park </a><br>
+      <span class="username">jiwontina</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/historycanada:">@historycanada:</a> Jack Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/33rQ1ru6tp</a> <a href="https://twitter.com/search?q=%23cdnhist&src=hash">#cdnhist</a> <a href="https://twitter.com/search?q=%23cdnhistory&src=hash">#cdnhistory</a> <a href="https://twitter.com/search?q=%23canadianh…&src=hash">#canadianh…</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/jiwontina/status/557185707329224704"><time>Mon Jan 19 14:39:59 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/wiki_normal.png">
+      <a href="http://twitter.com/historycanada" class="name">History of Canada</a><br>
+      <span class="username">historycanada</span><br>
+      <br>
+      <span class="text">Jack Granatstein: Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/33rQ1ru6tp</a> <a href="https://twitter.com/search?q=%23cdnhist&src=hash">#cdnhist</a> <a href="https://twitter.com/search?q=%23cdnhistory&src=hash">#cdnhistory</a> <a href="https://twitter.com/search?q=%23canadianhistory&src=hash">#canadianhistory</a></span><br>
+      <footer>
+      2 Retweets<br>
+      <a href="http://twitter.com/historycanada/status/557185296958496768"><time>Mon Jan 19 14:38:21 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/60a8cdb0a07a0bcafd4ae8388f97b83e_normal.jpeg">
+      <a href="http://twitter.com/STGoochie" class="name">Steve Gooch</a><br>
+      <span class="username">STGoochie</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://fw.to/ydqvtQg">http://t.co/DUDZ8Pp1JV</a>
+More hertiage-cutting by Canada's government to penny-pinch</span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/STGoochie/status/557183666548662272"><time>Mon Jan 19 14:31:52 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/0310e1950cb6d1ea3c5a8737223e2061_normal.jpeg">
+      <a href="http://twitter.com/BytownMuseum" class="name">BYTOWN MUSEUM</a><br>
+      <span class="username">BytownMuseum</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/ThingsAreOdd:">@ThingsAreOdd:</a> <a href="http://twitter.com/MisshapenPearl">@MisshapenPearl</a> <a href="http://twitter.com/BytownMuseum">@BytownMuseum</a> best museum in ottawa</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/BytownMuseum/status/557176723134234624"><time>Mon Jan 19 14:04:17 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/PWA_normal.jpg">
+      <a href="http://twitter.com/PWApn" class="name">Public Works Agency</a><br>
+      <span class="username">PWApn</span><br>
+      <br>
+      <span class="text">@PWAPN | Why is Ottawa sinking Kingston's Marine Museum?: Now, as part of its program of… <a href="http://goo.gl/fb/SRAk2a">http://t.co/IOHEraAvoD</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/PWApn/status/557173441447485440"><time>Mon Jan 19 13:51:14 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/db71e749a16ac05b77c66aa8bf747f08_normal.png">
+      <a href="http://twitter.com/SaorsaII" class="name">Wm.E. (Bill) Henry</a><br>
+      <span class="username">SaorsaII</span><br>
+      <br>
+      <span class="text">I've visited this museum on many occasions. It's small, but an absolute gem. It must be preserved!
+Damn bureaucrats. <a href="http://www.theglobeandmail.com/globe-debate/why-is-ottawa-sinking-kingstons-marine-museum/article22515252/">http://t.co/N07b3WpmdU</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/SaorsaII/status/557167510320328705"><time>Mon Jan 19 13:27:40 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/4XGwNCsO_normal.jpeg">
+      <a href="http://twitter.com/canada_agent" class="name">Canada Agent</a><br>
+      <span class="username">canada_agent</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://ift.tt/1ygoirE">http://t.co/iDrCl7ZukU</a> <a href="https://twitter.com/search?q=%23canada&src=hash">#canada</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/canada_agent/status/557164263450877952"><time>Mon Jan 19 13:14:46 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/92_RII-Z_normal.jpeg">
+      <a href="http://twitter.com/ftsnnewsdeskm" class="name">FTSN Mainstream News</a><br>
+      <span class="username">ftsnnewsdeskm</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://ift.tt/1J1ioMD">http://t.co/Llv6T5ErI4</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/ftsnnewsdeskm/status/557162233130921984"><time>Mon Jan 19 13:06:42 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/7w2eXfNy_normal.jpeg">
+      <a href="http://twitter.com/globalmuseum" class="name">globalmuseum</a><br>
+      <span class="username">globalmuseum</span><br>
+      <br>
+      <span class="text">GMLive Why is Ottawa sinking Kingston's Marine Museum? - The Globe and Mail: Why is Ottawa sinking Kingston's ... <a href="http://bit.ly/1BUaHrm">http://t.co/t6s9wVt8Sb</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/globalmuseum/status/557160685876965377"><time>Mon Jan 19 13:00:33 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/x3KBQrni_normal.jpeg">
+      <a href="http://twitter.com/krs21da" class="name">-</a><br>
+      <span class="username">krs21da</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://dlvr.it/88jyLf">http://t.co/7JvDMLPvjh</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/krs21da/status/557157649238589440"><time>Mon Jan 19 12:48:29 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/oDoEb3ar_normal.jpeg">
+      <a href="http://twitter.com/KangenGaa" class="name">-</a><br>
+      <span class="username">KangenGaa</span><br>
+      <br>
+      <span class="text">Why is Ottawa sinking Kingston’s Marine Museum? <a href="http://dlvr.it/88jqdQ">http://t.co/UAN8tmB9uo</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/KangenGaa/status/557157630024503296"><time>Mon Jan 19 12:48:25 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/e4cS0L3I_normal.jpeg">
+      <a href="http://twitter.com/jeninbess" class="name">Jenin Bessie</a><br>
+      <span class="username">jeninbess</span><br>
+      <br>
+      <span class="text">#followback Why is Ottawa sinking Kingston’s Marine Museum?: The government is about sell the s... <a href="http://bit.ly/1yyNF9Y">http://t.co/NbZi61bK88</a> <a href="https://twitter.com/search?q=%23sougofollowjp&src=hash">#sougofollowjp</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/jeninbess/status/557156496593534976"><time>Mon Jan 19 12:43:54 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/seeklogo_normal.png">
+      <a href="http://twitter.com/seeklogo" class="name">SeekLogo.com</a><br>
+      <span class="username">seeklogo</span><br>
+      <br>
+      <span class="text">Ottawa Museum Network Logo Vector - <a href="http://www.seeklogo.com/ottawa-museum-network-logo-258661.html">http://t.co/WpIyIjnlGg</a> <a href="https://twitter.com/search?q=%23logo&src=hash">#logo</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/seeklogo/status/557129172989276160"><time>Mon Jan 19 10:55:20 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/6mggXSpf_normal.jpeg">
+      <a href="http://twitter.com/earlg22" class="name">earleen</a><br>
+      <span class="username">earlg22</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23O…&src=hash">#O…</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/earlg22/status/556951166798815232"><time>Sun Jan 18 23:08:00 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/81cbeb64cb31c868ffc967ec97e6b73c_normal.jpeg">
+      <a href="http://twitter.com/partyspice" class="name">Tina Christensen</a><br>
+      <span class="username">partyspice</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23O…&src=hash">#O…</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/partyspice/status/556944702189359104"><time>Sun Jan 18 22:42:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/76cd688dc7e1bc5e21c90861439bc94b_normal.jpeg">
+      <a href="http://twitter.com/shopaganza" class="name">Shopaganza</a><br>
+      <span class="username">shopaganza</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23O…&src=hash">#O…</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/shopaganza/status/556944450966913025"><time>Sun Jan 18 22:41:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/z--IHLRO_normal.jpeg">
+      <a href="http://twitter.com/HeartHomeHandmd" class="name">HeartHomeHandmade</a><br>
+      <span class="username">HeartHomeHandmd</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23O…&src=hash">#O…</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/HeartHomeHandmd/status/556944450962735104"><time>Sun Jan 18 22:41:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/d5V3I_QL_normal.jpeg">
+      <a href="http://twitter.com/CherylWellsWAHM" class="name">Cheryl Wells</a><br>
+      <span class="username">CherylWellsWAHM</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/WellsGarbeProd:">@WellsGarbeProd:</a> Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23O…&src=hash">#O…</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/CherylWellsWAHM/status/556944450962726913"><time>Sun Jan 18 22:41:19 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/mHSh8CSX_normal.jpeg">
+      <a href="http://twitter.com/WellsGarbeProd" class="name">WellsGarbe</a><br>
+      <span class="username">WellsGarbeProd</span><br>
+      <br>
+      <span class="text">Feb 21 Museum of Nature 8pm. 19+ Ticket deets soon!!!! <a href="https://twitter.com/search?q=%23SaveTheDate&src=hash">#SaveTheDate</a> http://t.co/mn6jHwcJxJ <a href="https://twitter.com/search?q=%23HOTpotato613&src=hash">#HOTpotato613</a> <a href="https://twitter.com/search?q=%23DiscoParty&src=hash">#DiscoParty</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> <a href="https://twitter.com/search?q=%23NightMarket&src=hash">#NightMarket</a></span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/WellsGarbeProd/status/556943798249324544"><time>Sun Jan 18 22:38:43 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/35869_910309700390_48903879_51801789_1195771_n_normal.jpg">
+      <a href="http://twitter.com/Kal_El_" class="name">Alex Mancilla</a><br>
+      <span class="username">Kal_El_</span><br>
+      <br>
+      <span class="text">Nature Museum <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="http://instagram.com/p/yAPscExovT/">http://t.co/Hw0pTA28vi</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Kal_El_/status/556867080688246785"><time>Sun Jan 18 17:33:52 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/rNTupCRW_normal.jpeg">
+      <a href="http://twitter.com/Ottawa_Tourism" class="name">Ottawa Tourism</a><br>
+      <span class="username">Ottawa_Tourism</span><br>
+      <br>
+      <span class="text">Great idea! RT <a href="http://twitter.com/CanMusHistory:">@CanMusHistory:</a> January 21 is <a href="https://twitter.com/search?q=%23MuseumSelfie&src=hash">#MuseumSelfie</a> Day. Share a photo of yourself in a museum…maybe even the <a href="https://twitter.com/search?q=%23MuseumHistory?&src=hash">#MuseumHistory?</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Ottawa_Tourism/status/556848531689197568"><time>Sun Jan 18 16:20:10 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/z94jOvR3_normal.jpeg">
+      <a href="http://twitter.com/Imaginary_Voice" class="name">Imaginary Voice</a><br>
+      <span class="username">Imaginary_Voice</span><br>
+      <br>
+      <span class="text">False french poem Canadian War Museum <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> Fighting in Flanders Gas Mud Memory exhibit <a href="https://twitter.com/search?q=%23poetry&src=hash">#poetry</a> wall <a href="http://instagram.com/p/x-96CCtZbX/">http://t.co/08k04inqJr</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/Imaginary_Voice/status/556687227565395968"><time>Sun Jan 18 05:39:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/r6vNphFs_normal.png">
+      <a href="http://twitter.com/HenryGlazebrook" class="name">HenryTye Glazebrook</a><br>
+      <span class="username">HenryGlazebrook</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/steve_NASH77:">@steve_NASH77:</a> To a night at the museum. 
+#bus <a href="https://twitter.com/search?q=%23transit&src=hash">#transit</a> <a href="https://twitter.com/search?q=%23girlfriendsss&src=hash">#girlfriendsss</a> <a href="https://twitter.com/search?q=%23fresh&src=hash">#fresh</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23nash77&src=hash">#nash77</a> http://t.co/Y0NAIqlSmf</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/HenryGlazebrook/status/556655964154494977"><time>Sun Jan 18 03:34:58 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/pJU_f1lH_normal.jpeg">
+      <a href="http://twitter.com/steve_NASH77" class="name">Steve NASH 77</a><br>
+      <span class="username">steve_NASH77</span><br>
+      <br>
+      <span class="text">To a night at the museum. 
+#bus <a href="https://twitter.com/search?q=%23transit&src=hash">#transit</a> <a href="https://twitter.com/search?q=%23girlfriendsss&src=hash">#girlfriendsss</a> <a href="https://twitter.com/search?q=%23fresh&src=hash">#fresh</a> <a href="https://twitter.com/search?q=%23ottawa&src=hash">#ottawa</a> <a href="https://twitter.com/search?q=%23nash77&src=hash">#nash77</a> http://t.co/Y0NAIqlSmf</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/steve_NASH77/status/556655768477245440"><time>Sun Jan 18 03:34:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/HJ_29oyw_normal.jpeg">
+      <a href="http://twitter.com/random_visitor" class="name">Tracy Qurashi</a><br>
+      <span class="username">random_visitor</span><br>
+      <br>
+      <span class="text">Just spent an hour with the family exploring the Tim Hortons museum/restaurant on Ottawa street in… <a href="http://instagram.com/p/x-vL72CdkG/">http://t.co/Dy0bnbPZ0S</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/random_visitor/status/556654857357377536"><time>Sun Jan 18 03:30:34 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/rNTupCRW_normal.jpeg">
+      <a href="http://twitter.com/Ottawa_Tourism" class="name">Ottawa Tourism</a><br>
+      <span class="username">Ottawa_Tourism</span><br>
+      <br>
+      <span class="text">RT <a href="http://twitter.com/MisshapenPearl:">@MisshapenPearl:</a> Talk about a multisensorial <a href="https://twitter.com/search?q=%23museum&src=hash">#museum</a> experience! Smell simulated gas from <a href="https://twitter.com/search?q=%23WWI&src=hash">#WWI</a> <a href="http://twitter.com/CanWarMuseum">@CanWarMuseum</a> <a href="https://twitter.com/search?q=%23MMStTo&src=hash">#MMStTo</a> http://t.co/vr306DS…</span><br>
+      <footer>
+      5 Retweets<br>
+      <a href="http://twitter.com/Ottawa_Tourism/status/556520331293519872"><time>Sat Jan 17 18:36:01 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/18savjir0rsq4rgxlaf7_normal.gif">
+      <a href="http://twitter.com/ThingsAreOdd" class="name">Everything Is Weird </a><br>
+      <span class="username">ThingsAreOdd</span><br>
+      <br>
+      <span class="text">@MisshapenPearl <a href="http://twitter.com/BytownMuseum">@BytownMuseum</a> best museum in ottawa</span><br>
+      <footer>
+      1 Retweets<br>
+      <a href="http://twitter.com/ThingsAreOdd/status/556493388946481152"><time>Sat Jan 17 16:48:57 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+    <article class="tweet">
+      <img class="avatar" src="img/P7X0NKVF_normal.jpeg">
+      <a href="http://twitter.com/ClassCollect" class="name">Amy Bowker</a><br>
+      <span class="username">ClassCollect</span><br>
+      <br>
+      <span class="text">Collaborating with the <a href="http://twitter.com/MuseumofNature">@MuseumofNature</a> <a href="http://www.classroomcollective.com/collaborating-museum-nature/">http://t.co/hUo6yNqY5O</a> <a href="https://twitter.com/search?q=%23thta&src=hash">#thta</a>  <a href="https://twitter.com/search?q=%23onedchat&src=hash">#onedchat</a> <a href="https://twitter.com/search?q=%23Ottawa&src=hash">#Ottawa</a> <a href="https://twitter.com/search?q=%23cdnedchat&src=hash">#cdnedchat</a></span><br>
+      <footer>
+      0 Retweets<br>
+      <a href="http://twitter.com/ClassCollect/status/556457464246571008"><time>Sat Jan 17 14:26:12 +0000 2015</time></a>
+      </footer>
+    </article>
+    
+
+
+</div>
+
+<footer id="page">
+<hr>
+<br>
+created on the command line with <a href="http://github.com/edsu/twarc">twarc</a>.
+<br>
+<br>
+</footer>
+
+</body>
+</html>
